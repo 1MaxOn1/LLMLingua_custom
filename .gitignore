@@ -1,0 +1,5 @@
+@"
+results/
+**/.ipynb_checkpoints/
+*.log
+"@ >> .gitignore
