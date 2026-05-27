@@ -1,0 +1,1807 @@
+task,idx,method,target,prediction,correct,original_words,compressed_words,keep_ratio_actual,question,compressed_question
+boolean_expressions,44,none,True,True,1,9,9,1.0,True or True or not False or False is,True or True or not False or False is
+boolean_expressions,44,original_llmlingua2,True,True,1,9,5,0.5555555555555556,True or True or not False or False is,True or or not False
+boolean_expressions,44,finetuned_llmlingua2,True,True,1,9,5,0.5555555555555556,True or True or not False or False is,True or not False is
+boolean_expressions,44,finetuned_stat_hybrid,True,True,1,9,5,0.5555555555555556,True or True or not False or False is,True or not False is
+boolean_expressions,44,finetuned_reasoning_safe,True,Not True,1,9,5,0.5555555555555556,True or True or not False or False is,True or not False or
+boolean_expressions,98,none,True,True,1,9,9,1.0,True or ( True or not True ) is,True or ( True or not True ) is
+boolean_expressions,98,original_llmlingua2,True,not,0,9,5,0.5555555555555556,True or ( True or not True ) is,True or ( not )
+boolean_expressions,98,finetuned_llmlingua2,True,Not,0,9,5,0.5555555555555556,True or ( True or not True ) is,True or not ) is
+boolean_expressions,98,finetuned_stat_hybrid,True,Not,0,9,5,0.5555555555555556,True or ( True or not True ) is,True or not ) is
+boolean_expressions,98,finetuned_reasoning_safe,True,Not True,1,9,5,0.5555555555555556,True or ( True or not True ) is,True or not True is
+boolean_expressions,184,none,False,False,1,9,9,1.0,not ( not not True ) or False is,not ( not not True ) or False is
+boolean_expressions,184,original_llmlingua2,False,True,0,9,5,0.5555555555555556,not ( not not True ) or False is,not True ) or False
+boolean_expressions,184,finetuned_llmlingua2,False,True,0,9,5,0.5555555555555556,not ( not not True ) or False is,not True ) or False
+boolean_expressions,184,finetuned_stat_hybrid,False,True,0,9,5,0.5555555555555556,not ( not not True ) or False is,not True or False is
+boolean_expressions,184,finetuned_reasoning_safe,False,True,0,9,5,0.5555555555555556,not ( not not True ) or False is,not not True or False
+boolean_expressions,123,none,False,False,1,9,9,1.0,not ( True or True ) and True is,not ( True or True ) and True is
+boolean_expressions,123,original_llmlingua2,False,False,1,9,5,0.5555555555555556,not ( True or True ) and True is,not ( True or )
+boolean_expressions,123,finetuned_llmlingua2,False,True,0,9,5,0.5555555555555556,not ( True or True ) and True is,True or ) True is
+boolean_expressions,123,finetuned_stat_hybrid,False,False,1,9,5,0.5555555555555556,not ( True or True ) and True is,not True ) True is
+boolean_expressions,123,finetuned_reasoning_safe,False,False,1,9,5,0.5555555555555556,not ( True or True ) and True is,not True or and True
+boolean_expressions,121,none,True,True,1,9,9,1.0,not False or ( True or True ) is,not False or ( True or True ) is
+boolean_expressions,121,original_llmlingua2,True,True,1,9,5,0.5555555555555556,not False or ( True or True ) is,not False or True )
+boolean_expressions,121,finetuned_llmlingua2,True,True,1,9,5,0.5555555555555556,not False or ( True or True ) is,not False or True )
+boolean_expressions,121,finetuned_stat_hybrid,True,True,1,9,5,0.5555555555555556,not False or ( True or True ) is,not False or True )
+boolean_expressions,121,finetuned_reasoning_safe,True,True,1,9,5,0.5555555555555556,not False or ( True or True ) is,not False or True is
+boolean_expressions,167,none,True,True,1,9,9,1.0,True or False or not True or True is,True or False or not True or True is
+boolean_expressions,167,original_llmlingua2,True,False,0,9,5,0.5555555555555556,True or False or not True or True is,True or False not True
+boolean_expressions,167,finetuned_llmlingua2,True,False,0,9,5,0.5555555555555556,True or False or not True or True is,True or False True is
+boolean_expressions,167,finetuned_stat_hybrid,True,False,0,9,5,0.5555555555555556,True or False or not True or True is,True or False not is
+boolean_expressions,167,finetuned_reasoning_safe,True,False,0,9,5,0.5555555555555556,True or False or not True or True is,True or False not True
+boolean_expressions,9,none,True,True,1,9,9,1.0,not True or ( True or False ) is,not True or ( True or False ) is
+boolean_expressions,9,original_llmlingua2,True,False,0,9,5,0.5555555555555556,not True or ( True or False ) is,not True or False )
+boolean_expressions,9,finetuned_llmlingua2,True,False,0,9,5,0.5555555555555556,not True or ( True or False ) is,not True or False )
+boolean_expressions,9,finetuned_stat_hybrid,True,False,0,9,5,0.5555555555555556,not True or ( True or False ) is,not True or False )
+boolean_expressions,9,finetuned_reasoning_safe,True,True,1,9,5,0.5555555555555556,not True or ( True or False ) is,not True or or False
+boolean_expressions,176,none,False,False,1,9,9,1.0,( not True ) and ( False ) is,( not True ) and ( False ) is
+boolean_expressions,176,original_llmlingua2,False,True,0,9,5,0.5555555555555556,( not True ) and ( False ) is,not True ) False )
+boolean_expressions,176,finetuned_llmlingua2,False,True,0,9,5,0.5555555555555556,( not True ) and ( False ) is,( not True False )
+boolean_expressions,176,finetuned_stat_hybrid,False,True,0,9,5,0.5555555555555556,( not True ) and ( False ) is,( not True False )
+boolean_expressions,176,finetuned_reasoning_safe,False,True,0,9,5,0.5555555555555556,( not True ) and ( False ) is,( not True and False
+boolean_expressions,197,none,False,False,1,9,9,1.0,not True or False and True or False is,not True or False and True or False is
+boolean_expressions,197,original_llmlingua2,False,False,1,9,5,0.5555555555555556,not True or False and True or False is,not True or False True
+boolean_expressions,197,finetuned_llmlingua2,False,True,0,9,5,0.5555555555555556,not True or False and True or False is,not True or False is
+boolean_expressions,197,finetuned_stat_hybrid,False,True,0,9,5,0.5555555555555556,not True or False and True or False is,not True or False is
+boolean_expressions,197,finetuned_reasoning_safe,False,False,1,9,5,0.5555555555555556,not True or False and True or False is,not True or False True
+boolean_expressions,113,none,False,False,1,9,9,1.0,False and False and not ( False ) is,False and False and not ( False ) is
+boolean_expressions,113,original_llmlingua2,False,True,0,9,5,0.5555555555555556,False and False and not ( False ) is,False not ( False )
+boolean_expressions,113,finetuned_llmlingua2,False,True,0,9,5,0.5555555555555556,False and False and not ( False ) is,False not False ) is
+boolean_expressions,113,finetuned_stat_hybrid,False,False,1,9,5,0.5555555555555556,False and False and not ( False ) is,False False not ) is
+boolean_expressions,113,finetuned_reasoning_safe,False,True,0,9,5,0.5555555555555556,False and False and not ( False ) is,False and False not False
+boolean_expressions,3,none,False,False,1,9,9,1.0,False or not ( True ) and False is,False or not ( True ) and False is
+boolean_expressions,3,original_llmlingua2,False,True,0,9,5,0.5555555555555556,False or not ( True ) and False is,False ( True ) False
+boolean_expressions,3,finetuned_llmlingua2,False,True,0,9,5,0.5555555555555556,False or not ( True ) and False is,False ( True ) False
+boolean_expressions,3,finetuned_stat_hybrid,False,False,1,9,5,0.5555555555555556,False or not ( True ) and False is,False not True False is
+boolean_expressions,3,finetuned_reasoning_safe,False,True,0,9,5,0.5555555555555556,False or not ( True ) and False is,False or not True False
+boolean_expressions,51,none,False,True,0,9,9,1.0,not not False or False and not True is,not not False or False and not True is
+boolean_expressions,51,original_llmlingua2,False,True,0,9,5,0.5555555555555556,not not False or False and not True is,not False or not True
+boolean_expressions,51,finetuned_llmlingua2,False,Not True,0,9,5,0.5555555555555556,not not False or False and not True is,False or not True is
+boolean_expressions,51,finetuned_stat_hybrid,False,True,0,9,5,0.5555555555555556,not not False or False and not True is,not False not True is
+boolean_expressions,51,finetuned_reasoning_safe,False,True,0,9,5,0.5555555555555556,not not False or False and not True is,not False or not True
+boolean_expressions,15,none,True,False,0,9,9,1.0,not not not ( True and False ) is,not not not ( True and False ) is
+boolean_expressions,15,original_llmlingua2,True,True,1,9,5,0.5555555555555556,not not not ( True and False ) is,( True and False )
+boolean_expressions,15,finetuned_llmlingua2,True,True,1,9,5,0.5555555555555556,not not not ( True and False ) is,( True and False )
+boolean_expressions,15,finetuned_stat_hybrid,True,True,1,9,5,0.5555555555555556,not not not ( True and False ) is,( True and False )
+boolean_expressions,15,finetuned_reasoning_safe,True,True,1,9,5,0.5555555555555556,not not not ( True and False ) is,not not True and False
+boolean_expressions,89,none,True,True,1,9,9,1.0,False or not False or True and True is,False or not False or True and True is
+boolean_expressions,89,original_llmlingua2,True,False,0,9,5,0.5555555555555556,False or not False or True and True is,False or not True True
+boolean_expressions,89,finetuned_llmlingua2,True,Not True,1,9,5,0.5555555555555556,False or not False or True and True is,False or not True is
+boolean_expressions,89,finetuned_stat_hybrid,True,Not True,1,9,5,0.5555555555555556,False or not False or True and True is,False or not True is
+boolean_expressions,89,finetuned_reasoning_safe,True,False,0,9,5,0.5555555555555556,False or not False or True and True is,False or not True True
+boolean_expressions,209,none,True,True,1,9,9,1.0,True or not False and False and False is,True or not False and False and False is
+boolean_expressions,209,original_llmlingua2,True,True,1,9,5,0.5555555555555556,True or not False and False and False is,True or not False and
+boolean_expressions,209,finetuned_llmlingua2,True,True,1,9,5,0.5555555555555556,True or not False and False and False is,True or not False is
+boolean_expressions,209,finetuned_stat_hybrid,True,True,1,9,5,0.5555555555555556,True or not False and False and False is,True not False False is
+boolean_expressions,209,finetuned_reasoning_safe,True,True,1,9,5,0.5555555555555556,True or not False and False and False is,True or not False False
+boolean_expressions,85,none,False,True,0,9,9,1.0,not not ( False and not False ) is,not not ( False and not False ) is
+boolean_expressions,85,original_llmlingua2,False,True,0,9,5,0.5555555555555556,not not ( False and not False ) is,not ( False not )
+boolean_expressions,85,finetuned_llmlingua2,False,True,0,9,5,0.5555555555555556,not not ( False and not False ) is,( False not ) is
+boolean_expressions,85,finetuned_stat_hybrid,False,True,0,9,5,0.5555555555555556,not not ( False and not False ) is,not False not ) is
+boolean_expressions,85,finetuned_reasoning_safe,False,True,0,9,5,0.5555555555555556,not not ( False and not False ) is,not not False not False
+boolean_expressions,115,none,True,True,1,9,9,1.0,not ( True or False ) or True is,not ( True or False ) or True is
+boolean_expressions,115,original_llmlingua2,True,False,0,9,5,0.5555555555555556,not ( True or False ) or True is,not True or False True
+boolean_expressions,115,finetuned_llmlingua2,True,True,1,9,5,0.5555555555555556,not ( True or False ) or True is,True or False ) True
+boolean_expressions,115,finetuned_stat_hybrid,True,False,0,9,5,0.5555555555555556,not ( True or False ) or True is,not True or False is
+boolean_expressions,115,finetuned_reasoning_safe,True,False,0,9,5,0.5555555555555556,not ( True or False ) or True is,not True or False True
+boolean_expressions,21,none,True,True,1,9,9,1.0,not not ( True ) and not False is,not not ( True ) and not False is
+boolean_expressions,21,original_llmlingua2,True,True,1,9,5,0.5555555555555556,not not ( True ) and not False is,( True ) not False
+boolean_expressions,21,finetuned_llmlingua2,True,True,1,9,5,0.5555555555555556,not not ( True ) and not False is,( True ) not False
+boolean_expressions,21,finetuned_stat_hybrid,True,True,1,9,5,0.5555555555555556,not not ( True ) and not False is,( True ) not False
+boolean_expressions,21,finetuned_reasoning_safe,True,True,1,9,5,0.5555555555555556,not not ( True ) and not False is,not True and not False
+boolean_expressions,103,none,False,False,1,9,9,1.0,not False and not True and not False is,not False and not True and not False is
+boolean_expressions,103,original_llmlingua2,False,False,1,9,5,0.5555555555555556,not False and not True and not False is,not False not True False
+boolean_expressions,103,finetuned_llmlingua2,False,True,0,9,5,0.5555555555555556,not False and not True and not False is,not False True False is
+boolean_expressions,103,finetuned_stat_hybrid,False,True,0,9,5,0.5555555555555556,not False and not True and not False is,not False not True not
+boolean_expressions,103,finetuned_reasoning_safe,False,True,0,9,5,0.5555555555555556,not False and not True and not False is,not False not True not
+boolean_expressions,105,none,True,True,1,9,9,1.0,not False or ( False ) or True is,not False or ( False ) or True is
+boolean_expressions,105,original_llmlingua2,True,True,1,9,5,0.5555555555555556,not False or ( False ) or True is,not False ( ) True
+boolean_expressions,105,finetuned_llmlingua2,True,True,1,9,5,0.5555555555555556,not False or ( False ) or True is,not False or True is
+boolean_expressions,105,finetuned_stat_hybrid,True,True,1,9,5,0.5555555555555556,not False or ( False ) or True is,not False or True is
+boolean_expressions,105,finetuned_reasoning_safe,True,True,1,9,5,0.5555555555555556,not False or ( False ) or True is,not False or True is
+date_understanding,44,none,(D),(D) 08/03/1996,1,32,32,1.0,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996"
+date_understanding,44,original_llmlingua2,(D),D,1,32,19,0.59375,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","8/3/1997, never forget. date one year ago MM/DD/YYYY? Options: (A) 10/07/1996 (B) 08/03/2035 (C) 05/03/1997 (D) 08/03/1996 (E) 08/04/1996"
+date_understanding,44,finetuned_llmlingua2,(D),08/03/1996,0,32,19,0.59375,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, 8/3/1997, we will never forget. date one year ago MM/DD/YYYY? Options: 10/07/1996 08/03/2035 05/03/1997 (D) 08/03/1996 (E) 08/04/1996"
+date_understanding,44,finetuned_stat_hybrid,(D),08/03/1996,0,32,19,0.59375,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, 8/3/1997, day we will never forget. date one year ago MM/DD/YYYY? Options: 10/07/1996 08/03/2035 05/03/1997 08/03/1996 (E) 08/04/1996"
+date_understanding,44,finetuned_reasoning_safe,(D),D) 08/03/1996,1,32,19,0.59375,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, 8/3/1997, never forget. date one year ago MM/DD/YYYY? (A) 10/07/1996 (B) 08/03/2035 (C) 05/03/1997 (D) 08/03/1996 (E) 08/04/1996"
+date_understanding,98,none,(B),(B) 02/18/2017,1,38,38,1.0,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017","Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017"
+date_understanding,98,original_llmlingua2,(B),B,1,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",Jane born last Feburary 2001. 16-year-old birthday. date 10 days ago MM/DD/YYYY? 02/28/2017 (B) 02/18/2017 (C) 03/18/2017 (D) 02/13/2017 (E) 02/25/2017 (F) 03/04/2017
+date_understanding,98,finetuned_llmlingua2,(B),02/18/2017,0,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",Jane born Feburary 2001. Today 16-year-old birthday. date 10 days ago MM/DD/YYYY? Options: 02/28/2017 (B) 02/18/2017 03/18/2017 (D) 02/13/2017 (E) 02/25/2017 (F) 03/04/2017
+date_understanding,98,finetuned_stat_hybrid,(B),02/28/2017,0,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",Jane born last day Feburary 2001. Today 16-year-old birthday. date 10 days ago MM/DD/YYYY? Options: 02/28/2017 02/18/2017 03/18/2017 (D) 02/13/2017 02/25/2017 (F) 03/04/2017
+date_understanding,98,finetuned_reasoning_safe,(B),(B) 02/18/2017,1,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",Jane born last 2001. Today 16-year-old birthday. date 10 days ago MM/DD/YYYY? (A) 02/28/2017 (B) 02/18/2017 (C) 03/18/2017 (D) 02/13/2017 (E) 02/25/2017 03/04/2017
+date_understanding,184,none,(D),(E) 07/26/1960,0,38,38,1.0,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936"
+date_understanding,184,original_llmlingua2,(D),01/02/1961,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane John married Jan 2, 1958. 5-year anniversary date one week ago MM/DD/YYYY? Options: 01/09/1961 (B) 01/02/1961 10/01/1960 (D) 12/26/1960 07/26/1960 (F) 12/26/1936"
+date_understanding,184,finetuned_llmlingua2,(D),01/02/1961,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane and John married Jan 2, 1958. 5-year anniversary today. date one week ago MM/DD/YYYY? Options: 01/09/1961 01/02/1961 10/01/1960 12/26/1960 07/26/1960 (F) 12/26/1936"
+date_understanding,184,finetuned_stat_hybrid,(D),01/02/1961,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane and John married Jan 2, 1958. 5-year anniversary today. date one week ago today MM/DD/YYYY? Options: 01/09/1961 01/02/1961 10/01/1960 12/26/1960 07/26/1960 12/26/1936"
+date_understanding,184,finetuned_reasoning_safe,(D),B,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane and John Jan 2, 1958. 5-year anniversary today. date one week ago 01/09/1961 (B) 01/02/1961 (C) 10/01/1960 (D) 12/26/1960 (E) 07/26/1960 12/26/1936"
+date_understanding,123,none,(E),02/21/2017,0,38,38,1.0,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 03/03/2017
+(B) 04/27/2017
+(C) 03/21/2017
+(D) 02/21/1961
+(E) 02/21/2017","Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 03/03/2017
+(B) 04/27/2017
+(C) 03/21/2017
+(D) 02/21/1961
+(E) 02/21/2017"
+date_understanding,123,original_llmlingua2,(E),C,0,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 03/03/2017
+(B) 04/27/2017
+(C) 03/21/2017
+(D) 02/21/1961
+(E) 02/21/2017",Jane born last Feburary 2001. 16-year-old birthday. date one week ago MM/DD/YYYY? Options: (A) 03/03/2017 (B) 04/27/2017 (C) 03/21/2017 (D) 02/21/1961 (E) 02/21/2017
+date_understanding,123,finetuned_llmlingua2,(E),E) 02/21/2017,1,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 03/03/2017
+(B) 04/27/2017
+(C) 03/21/2017
+(D) 02/21/1961
+(E) 02/21/2017",Jane born Feburary 2001. Today 16-year-old birthday. date one week ago MM/DD/YYYY? Options: (A) 03/03/2017 (B) 04/27/2017 (C) 03/21/2017 (D) 02/21/1961 (E) 02/21/2017
+date_understanding,123,finetuned_stat_hybrid,(E),03/03/2017,0,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 03/03/2017
+(B) 04/27/2017
+(C) 03/21/2017
+(D) 02/21/1961
+(E) 02/21/2017",Jane born last day Feburary 2001. Today 16-year-old birthday. date one week ago today MM/DD/YYYY? 03/03/2017 (B) 04/27/2017 (C) 03/21/2017 02/21/1961 (E) 02/21/2017
+date_understanding,123,finetuned_reasoning_safe,(E),(A) 03/03/2017,0,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 03/03/2017
+(B) 04/27/2017
+(C) 03/21/2017
+(D) 02/21/1961
+(E) 02/21/2017",Jane born last Feburary 2001. Today 16-year-old birthday. date one week ago MM/DD/YYYY? (A) 03/03/2017 (B) 04/27/2017 (C) 03/21/2017 (D) 02/21/1961 (E) 02/21/2017
+date_understanding,121,none,(B),02/22/2010,0,48,48,1.0,"Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 02/22/2010
+(B) 02/23/2010
+(C) 03/01/2010
+(D) 01/26/2010
+(E) 02/19/2010
+(F) 02/24/2010","Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 02/22/2010
+(B) 02/23/2010
+(C) 03/01/2010
+(D) 01/26/2010
+(E) 02/19/2010
+(F) 02/24/2010"
+date_understanding,121,original_llmlingua2,(B),(A) 02/22/2010,0,48,29,0.6041666666666666,"Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 02/22/2010
+(B) 02/23/2010
+(C) 03/01/2010
+(D) 01/26/2010
+(E) 02/19/2010
+(F) 02/24/2010",Jane visits bookstore 16th each month October 2009. 5th visit today. date one week today MM/DD/YYYY? Options: (A) 02/22/2010 (B) 02/23/2010 (C) 03/01/2010 (D) 01/26/2010 (E) 02/19/2010 (F) 02/24/2010
+date_understanding,121,finetuned_llmlingua2,(B),02/22/2010,0,48,29,0.6041666666666666,"Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 02/22/2010
+(B) 02/23/2010
+(C) 03/01/2010
+(D) 01/26/2010
+(E) 02/19/2010
+(F) 02/24/2010",Jane visits bookstore 16th each month October 2009. her 5th visit today. date one week from today MM/DD/YYYY? Options: 02/22/2010 (B) 02/23/2010 (C) 03/01/2010 (D) 01/26/2010 02/19/2010 (F) 02/24/2010
+date_understanding,121,finetuned_stat_hybrid,(B),02/22/2010,0,48,29,0.6041666666666666,"Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 02/22/2010
+(B) 02/23/2010
+(C) 03/01/2010
+(D) 01/26/2010
+(E) 02/19/2010
+(F) 02/24/2010",Jane visits bookstore 16th of each month October 2009. her 5th visit today. What the date one week today MM/DD/YYYY? Options: 02/22/2010 (B) 02/23/2010 03/01/2010 01/26/2010 02/19/2010 (F) 02/24/2010
+date_understanding,121,finetuned_reasoning_safe,(B),(A) 02/22/2010,0,48,29,0.6041666666666666,"Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 02/22/2010
+(B) 02/23/2010
+(C) 03/01/2010
+(D) 01/26/2010
+(E) 02/19/2010
+(F) 02/24/2010",Jane visits bookstore 16th each month October 2009. 5th visit today. date one week today MM/DD/YYYY? Options: (A) 02/22/2010 (B) 02/23/2010 (C) 03/01/2010 (D) 01/26/2010 (E) 02/19/2010 (F) 02/24/2010
+date_understanding,167,none,(D),(A) 09/05/2003,0,30,30,1.0,"Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 09/05/2003
+(B) 08/30/2003
+(C) 08/31/2074
+(D) 08/31/2003
+(E) 06/30/2004","Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 09/05/2003
+(B) 08/30/2003
+(C) 08/31/2074
+(D) 08/31/2003
+(E) 06/30/2004"
+date_understanding,167,original_llmlingua2,(D),09/05/2003,0,30,18,0.6,"Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 09/05/2003
+(B) 08/30/2003
+(C) 08/31/2074
+(D) 08/31/2003
+(E) 06/30/2004",9/7. Jane watching NFL 2003. date week ago MM/DD/YYYY? Options: 09/05/2003 (B) 08/30/2003 08/31/2074 (D) 08/31/2003 (E) 06/30/2004
+date_understanding,167,finetuned_llmlingua2,(D),08/31/2003,0,30,18,0.6,"Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 09/05/2003
+(B) 08/30/2003
+(C) 08/31/2074
+(D) 08/31/2003
+(E) 06/30/2004",Today 9/7. Jane NFL 2003. date one week ago MM/DD/YYYY? Options: 09/05/2003 08/30/2003 08/31/2074 (D) 08/31/2003 (E) 06/30/2004
+date_understanding,167,finetuned_stat_hybrid,(D),09/05/2003,0,30,18,0.6,"Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 09/05/2003
+(B) 08/30/2003
+(C) 08/31/2074
+(D) 08/31/2003
+(E) 06/30/2004",Today 9/7. Jane NFL 2003. date one week ago today MM/DD/YYYY? Options: 09/05/2003 08/30/2003 08/31/2074 08/31/2003 (E) 06/30/2004
+date_understanding,167,finetuned_reasoning_safe,(D),A,0,30,18,0.6,"Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 09/05/2003
+(B) 08/30/2003
+(C) 08/31/2074
+(D) 08/31/2003
+(E) 06/30/2004",Today 9/7. Jane NFL 2003. date one week ago (A) 09/05/2003 (B) 08/30/2003 (C) (D) 08/31/2003 (E) 06/30/2004
+date_understanding,9,none,(B),01/08/2018,0,40,40,1.0,"The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 01/08/2018
+(B) 01/07/2018
+(C) 01/02/2018
+(D) 01/12/2018
+(E) 05/07/2017
+(F) 10/29/2017","The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 01/08/2018
+(B) 01/07/2018
+(C) 01/02/2018
+(D) 01/12/2018
+(E) 05/07/2017
+(F) 10/29/2017"
+date_understanding,9,original_llmlingua2,(B),A) 01/08/2018,0,40,24,0.6,"The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 01/08/2018
+(B) 01/07/2018
+(C) 01/02/2018
+(D) 01/12/2018
+(E) 05/07/2017
+(F) 10/29/2017","first 2019 Tuesday, first Monday 2019. date one year ago MM/DD/YYYY? Options: (A) 01/08/2018 (B) 01/07/2018 (C) 01/02/2018 (D) 01/12/2018 (E) 05/07/2017 (F) 10/29/2017"
+date_understanding,9,finetuned_llmlingua2,(B),01/08/2018,0,40,24,0.6,"The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 01/08/2018
+(B) 01/07/2018
+(C) 01/02/2018
+(D) 01/12/2018
+(E) 05/07/2017
+(F) 10/29/2017","first day 2019 Tuesday, today first Monday date one year ago MM/DD/YYYY? Options: 01/08/2018 (B) 01/07/2018 (C) 01/02/2018 (D) 01/12/2018 (E) 05/07/2017 (F) 10/29/2017"
+date_understanding,9,finetuned_stat_hybrid,(B),01/08/2018,0,40,24,0.6,"The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 01/08/2018
+(B) 01/07/2018
+(C) 01/02/2018
+(D) 01/12/2018
+(E) 05/07/2017
+(F) 10/29/2017","first day 2019 Tuesday, today first Monday 2019. date one year ago MM/DD/YYYY? Options: 01/08/2018 (B) 01/07/2018 (C) 01/02/2018 01/12/2018 (E) 05/07/2017 (F) 10/29/2017"
+date_understanding,9,finetuned_reasoning_safe,(B),A) 01/08/2018,0,40,24,0.6,"The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 01/08/2018
+(B) 01/07/2018
+(C) 01/02/2018
+(D) 01/12/2018
+(E) 05/07/2017
+(F) 10/29/2017","first day 2019 Tuesday, today first Monday 2019. date one year ago MM/DD/YYYY? (A) 01/08/2018 (B) 01/07/2018 (C) 01/02/2018 (D) 01/12/2018 (E) 05/07/2017 10/29/2017"
+date_understanding,176,none,(B),(A) 05/10/2004,0,32,32,1.0,"The current local time is 3:02 pm of 5/4/2004. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 05/10/2004
+(B) 05/11/2004
+(C) 04/12/2004
+(D) 05/05/2004
+(E) 05/21/2004
+(F) 05/25/2004","The current local time is 3:02 pm of 5/4/2004. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 05/10/2004
+(B) 05/11/2004
+(C) 04/12/2004
+(D) 05/05/2004
+(E) 05/21/2004
+(F) 05/25/2004"
+date_understanding,176,original_llmlingua2,(B),05/10/2004,0,32,19,0.59375,"The current local time is 3:02 pm of 5/4/2004. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 05/10/2004
+(B) 05/11/2004
+(C) 04/12/2004
+(D) 05/05/2004
+(E) 05/21/2004
+(F) 05/25/2004",local time 3:02 pm 5/4/2004. date week MM/DD/YYYY? Options: 05/10/2004 (B) 05/11/2004 04/12/2004 (D) 05/05/2004 (E) 05/21/2004 (F) 05/25/2004
+date_understanding,176,finetuned_llmlingua2,(B),05/11/2004,0,32,19,0.59375,"The current local time is 3:02 pm of 5/4/2004. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 05/10/2004
+(B) 05/11/2004
+(C) 04/12/2004
+(D) 05/05/2004
+(E) 05/21/2004
+(F) 05/25/2004",current local time 3:02 pm 5/4/2004. date one week MM/DD/YYYY? Options: 05/10/2004 05/11/2004 04/12/2004 05/05/2004 (E) 05/21/2004 (F) 05/25/2004
+date_understanding,176,finetuned_stat_hybrid,(B),05/11/2004,0,32,19,0.59375,"The current local time is 3:02 pm of 5/4/2004. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 05/10/2004
+(B) 05/11/2004
+(C) 04/12/2004
+(D) 05/05/2004
+(E) 05/21/2004
+(F) 05/25/2004",current local time 3:02 pm 5/4/2004. date one week today MM/DD/YYYY? Options: 05/10/2004 05/11/2004 04/12/2004 05/05/2004 05/21/2004 (F) 05/25/2004
+date_understanding,176,finetuned_reasoning_safe,(B),B,1,32,19,0.59375,"The current local time is 3:02 pm of 5/4/2004. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 05/10/2004
+(B) 05/11/2004
+(C) 04/12/2004
+(D) 05/05/2004
+(E) 05/21/2004
+(F) 05/25/2004",3:02 pm 5/4/2004. date one week today MM/DD/YYYY? (A) 05/10/2004 (B) 05/11/2004 (C) 04/12/2004 (D) 05/05/2004 (E) 05/21/2004 05/25/2004
+date_understanding,197,none,(B),(B) 03/04/1973,1,38,38,1.0,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 04/05/1973
+(B) 03/04/1973
+(C) 01/02/1973
+(D) 03/05/1973
+(E) 03/04/2007
+(F) 03/05/1983","Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 04/05/1973
+(B) 03/04/1973
+(C) 01/02/1973
+(D) 03/05/1973
+(E) 03/04/2007
+(F) 03/05/1983"
+date_understanding,197,original_llmlingua2,(B),B,1,38,23,0.6052631578947368,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 04/05/1973
+(B) 03/04/1973
+(C) 01/02/1973
+(D) 03/05/1973
+(E) 03/04/2007
+(F) 03/05/1983","3/5, Jane's second time 1973 meteor shower. date yesterday MM/DD/YYYY? Options: (A) 04/05/1973 (B) 03/04/1973 (C) 01/02/1973 (D) 03/05/1973 (E) 03/04/2007 (F) 03/05/1983"
+date_understanding,197,finetuned_llmlingua2,(B),03/05/1973,0,38,23,0.6052631578947368,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 04/05/1973
+(B) 03/04/1973
+(C) 01/02/1973
+(D) 03/05/1973
+(E) 03/04/2007
+(F) 03/05/1983","Today 3/5, Jane's second time 1973 see meteor shower. date MM/DD/YYYY? Options: 04/05/1973 (B) 03/04/1973 (C) 01/02/1973 (D) 03/05/1973 (E) 03/04/2007 (F) 03/05/1983"
+date_understanding,197,finetuned_stat_hybrid,(B),03/04/1973,0,38,23,0.6052631578947368,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 04/05/1973
+(B) 03/04/1973
+(C) 01/02/1973
+(D) 03/05/1973
+(E) 03/04/2007
+(F) 03/05/1983","Today 3/5, Jane's second time 1973 see meteor shower. date yesterday MM/DD/YYYY? Options: 04/05/1973 (B) 03/04/1973 01/02/1973 (D) 03/05/1973 (E) 03/04/2007 (F) 03/05/1983"
+date_understanding,197,finetuned_reasoning_safe,(B),(B) 03/04/1973,1,38,23,0.6052631578947368,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 04/05/1973
+(B) 03/04/1973
+(C) 01/02/1973
+(D) 03/05/1973
+(E) 03/04/2007
+(F) 03/05/1983","Today 3/5, Jane's second time 1973 see meteor shower. date yesterday MM/DD/YYYY? (A) 04/05/1973 (B) 03/04/1973 (C) 01/02/1973 (D) 03/05/1973 (E) 03/04/2007 03/05/1983"
+date_understanding,113,none,(F),08/31/2020,0,32,32,1.0,"It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/07/2020
+(B) 08/31/2020
+(C) 07/08/2020
+(D) 09/08/2049
+(E) 08/18/2020
+(F) 09/08/2020","It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/07/2020
+(B) 08/31/2020
+(C) 07/08/2020
+(D) 09/08/2049
+(E) 08/18/2020
+(F) 09/08/2020"
+date_understanding,113,original_llmlingua2,(F),09/07/2020,0,32,19,0.59375,"It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/07/2020
+(B) 08/31/2020
+(C) 07/08/2020
+(D) 09/08/2049
+(E) 08/18/2020
+(F) 09/08/2020","Sept. 1st, 2021 week ago. date one year ago MM/DD/YYYY? Options: 09/07/2020 08/31/2020 07/08/2020 (D) 09/08/2049 08/18/2020 (F) 09/08/2020"
+date_understanding,113,finetuned_llmlingua2,(F),08/31/2020,0,32,19,0.59375,"It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/07/2020
+(B) 08/31/2020
+(C) 07/08/2020
+(D) 09/08/2049
+(E) 08/18/2020
+(F) 09/08/2020",Sept. 2021 week ago. date one year ago MM/DD/YYYY? Options: 09/07/2020 (B) 08/31/2020 07/08/2020 (D) 09/08/2049 08/18/2020 (F) 09/08/2020
+date_understanding,113,finetuned_stat_hybrid,(F),09/07/2020,0,32,19,0.59375,"It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/07/2020
+(B) 08/31/2020
+(C) 07/08/2020
+(D) 09/08/2049
+(E) 08/18/2020
+(F) 09/08/2020","Sept. 1st, 2021 week ago. date one year ago today MM/DD/YYYY? Options: 09/07/2020 08/31/2020 07/08/2020 09/08/2049 08/18/2020 (F) 09/08/2020"
+date_understanding,113,finetuned_reasoning_safe,(F),(A) 09/07/2020,0,32,19,0.59375,"It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/07/2020
+(B) 08/31/2020
+(C) 07/08/2020
+(D) 09/08/2049
+(E) 08/18/2020
+(F) 09/08/2020",Sept. 2021 week ago. date year ago MM/DD/YYYY? (A) 09/07/2020 (B) 08/31/2020 (C) 07/08/2020 (D) 09/08/2049 (E) 08/18/2020 09/08/2020
+date_understanding,3,none,(E),07/02/1972,0,35,35,1.0,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 07/09/1972
+(B) 12/01/1972
+(C) 07/01/2008
+(D) 05/13/1972
+(E) 07/01/1972
+(F) 08/12/1972","Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 07/09/1972
+(B) 12/01/1972
+(C) 07/01/2008
+(D) 05/13/1972
+(E) 07/01/1972
+(F) 08/12/1972"
+date_understanding,3,original_llmlingua2,(E),07/09/1970,0,35,21,0.6,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 07/09/1972
+(B) 12/01/1972
+(C) 07/01/2008
+(D) 05/13/1972
+(E) 07/01/1972
+(F) 08/12/1972","Jane scheduled 3 apointments 5 tomorrow (Tue, 7/9/1972). date week ago MM/DD/YYYY? Options: 07/09/1972 (B) 12/01/1972 07/01/2008 05/13/1972 07/01/1972 (F) 08/12/1972"
+date_understanding,3,finetuned_llmlingua2,(E),07/02/1972,0,35,21,0.6,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 07/09/1972
+(B) 12/01/1972
+(C) 07/01/2008
+(D) 05/13/1972
+(E) 07/01/1972
+(F) 08/12/1972","Jane scheduled 3 apointments 5 poeple tomorrow (Tue, 7/9/1972). date one week ago MM/DD/YYYY? 07/09/1972 12/01/1972 07/01/2008 05/13/1972 07/01/1972 (F) 08/12/1972"
+date_understanding,3,finetuned_stat_hybrid,(E),07/02/1972,0,35,21,0.6,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 07/09/1972
+(B) 12/01/1972
+(C) 07/01/2008
+(D) 05/13/1972
+(E) 07/01/1972
+(F) 08/12/1972","Jane scheduled 3 apointments 5 poeple tomorrow (Tue, 7/9/1972). date one week ago today MM/DD/YYYY? 07/09/1972 12/01/1972 07/01/2008 05/13/1972 07/01/1972 08/12/1972"
+date_understanding,3,finetuned_reasoning_safe,(E),A,0,35,21,0.6,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 07/09/1972
+(B) 12/01/1972
+(C) 07/01/2008
+(D) 05/13/1972
+(E) 07/01/1972
+(F) 08/12/1972",Jane 3 apointments 5 tomorrow 7/9/1972). date one week ago (A) 07/09/1972 (B) 12/01/1972 (C) 07/01/2008 (D) 05/13/1972 (E) 07/01/1972 08/12/1972
+date_understanding,51,none,(D),D) 09/08/2003,1,28,28,1.0,"Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 09/08/1916
+(B) 09/13/2003
+(C) 08/18/2003
+(D) 09/08/2003
+(E) 09/15/2003
+(F) 09/01/2003","Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 09/08/1916
+(B) 09/13/2003
+(C) 08/18/2003
+(D) 09/08/2003
+(E) 09/15/2003
+(F) 09/01/2003"
+date_understanding,51,original_llmlingua2,(D),09/13/2003,0,28,17,0.6071428571428571,"Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 09/08/1916
+(B) 09/13/2003
+(C) 08/18/2003
+(D) 09/08/2003
+(E) 09/15/2003
+(F) 09/01/2003",9/7. Jane watching NFL 2003. date tomorrow MM/DD/YYYY? Options: 09/08/1916 09/13/2003 08/18/2003 (D) 09/08/2003 09/15/2003 (F) 09/01/2003
+date_understanding,51,finetuned_llmlingua2,(D),09/08/2003,0,28,17,0.6071428571428571,"Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 09/08/1916
+(B) 09/13/2003
+(C) 08/18/2003
+(D) 09/08/2003
+(E) 09/15/2003
+(F) 09/01/2003",Today 9/7. Jane NFL 2003. date tomorrow MM/DD/YYYY? Options: 09/08/1916 09/13/2003 08/18/2003 (D) 09/08/2003 09/15/2003 (F) 09/01/2003
+date_understanding,51,finetuned_stat_hybrid,(D),09/08/2003,0,28,17,0.6071428571428571,"Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 09/08/1916
+(B) 09/13/2003
+(C) 08/18/2003
+(D) 09/08/2003
+(E) 09/15/2003
+(F) 09/01/2003",Today 9/7. Jane NFL 2003. date tomorrow MM/DD/YYYY? Options: 09/08/1916 09/13/2003 08/18/2003 (D) 09/08/2003 09/15/2003 (F) 09/01/2003
+date_understanding,51,finetuned_reasoning_safe,(D),B,0,28,17,0.6071428571428571,"Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 09/08/1916
+(B) 09/13/2003
+(C) 08/18/2003
+(D) 09/08/2003
+(E) 09/15/2003
+(F) 09/01/2003",Today 9/7. Jane NFL 2003. date tomorrow (A) 09/08/1916 (B) 09/13/2003 (C) 08/18/2003 (D) (E) 09/15/2003 09/01/2003
+date_understanding,15,none,(D),(C) 09/01/1972,0,31,31,1.0,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 07/09/1923
+(B) 08/05/1972
+(C) 09/01/1972
+(D) 07/09/1972
+(E) 07/09/2007
+(F) 09/04/1972","Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 07/09/1923
+(B) 08/05/1972
+(C) 09/01/1972
+(D) 07/09/1972
+(E) 07/09/2007
+(F) 09/04/1972"
+date_understanding,15,original_llmlingua2,(D),07/09/1972,0,31,19,0.6129032258064516,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 07/09/1923
+(B) 08/05/1972
+(C) 09/01/1972
+(D) 07/09/1972
+(E) 07/09/2007
+(F) 09/04/1972","Jane scheduled 3 apointments 5 tomorrow (Tue, 7/9/1972). date MM/DD/YYYY? Options: 07/09/1923 08/05/1972 09/01/1972 (D) 07/09/1972 07/09/2007 (F) 09/04/1972"
+date_understanding,15,finetuned_llmlingua2,(D),07/09/1972,0,31,19,0.6129032258064516,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 07/09/1923
+(B) 08/05/1972
+(C) 09/01/1972
+(D) 07/09/1972
+(E) 07/09/2007
+(F) 09/04/1972",Jane scheduled 3 apointments 5 poeple tomorrow 7/9/1972). date MM/DD/YYYY? Options: 07/09/1923 08/05/1972 09/01/1972 (D) 07/09/1972 07/09/2007 (F) 09/04/1972
+date_understanding,15,finetuned_stat_hybrid,(D),07/09/1972,0,31,19,0.6129032258064516,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 07/09/1923
+(B) 08/05/1972
+(C) 09/01/1972
+(D) 07/09/1972
+(E) 07/09/2007
+(F) 09/04/1972",Jane scheduled 3 apointments 5 poeple tomorrow 7/9/1972). date tomorrow MM/DD/YYYY? Options: 07/09/1923 08/05/1972 09/01/1972 07/09/1972 07/09/2007 (F) 09/04/1972
+date_understanding,15,finetuned_reasoning_safe,(D),D) 07/09/1972,1,31,19,0.6129032258064516,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 07/09/1923
+(B) 08/05/1972
+(C) 09/01/1972
+(D) 07/09/1972
+(E) 07/09/2007
+(F) 09/04/1972",Jane 3 apointments 5 tomorrow 7/9/1972). date MM/DD/YYYY? (A) 07/09/1923 (B) 08/05/1972 (C) 09/01/1972 (D) 07/09/1972 (E) 07/09/2007 09/04/1972
+date_understanding,89,none,(A),(A) 06/03/1943,1,36,36,1.0,"The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 06/03/1943
+(B) 03/15/1943
+(C) 08/03/1942
+(D) 06/02/1943
+(E) 07/04/1943
+(F) 05/06/1943","The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 06/03/1943
+(B) 03/15/1943
+(C) 08/03/1942
+(D) 06/02/1943
+(E) 07/04/1943
+(F) 05/06/1943"
+date_understanding,89,original_llmlingua2,(A),D,0,36,22,0.6111111111111112,"The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 06/03/1943
+(B) 03/15/1943
+(C) 08/03/1942
+(D) 06/02/1943
+(E) 07/04/1943
+(F) 05/06/1943","concert scheduled 06/01/1943, delayed day today. date tomorrow MM/DD/YYYY? Options: (A) 06/03/1943 (B) 03/15/1943 (C) 08/03/1942 (D) 06/02/1943 (E) 07/04/1943 (F) 05/06/1943"
+date_understanding,89,finetuned_llmlingua2,(A),(A) 06/03/1943,1,36,22,0.6111111111111112,"The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 06/03/1943
+(B) 03/15/1943
+(C) 08/03/1942
+(D) 06/02/1943
+(E) 07/04/1943
+(F) 05/06/1943","concert 06/01/1943, but delayed day today. date tomorrow MM/DD/YYYY? Options: (A) 06/03/1943 (B) 03/15/1943 (C) 08/03/1942 (D) 06/02/1943 (E) 07/04/1943 (F) 05/06/1943"
+date_understanding,89,finetuned_stat_hybrid,(A),06/03/1943,0,36,22,0.6111111111111112,"The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 06/03/1943
+(B) 03/15/1943
+(C) 08/03/1942
+(D) 06/02/1943
+(E) 07/04/1943
+(F) 05/06/1943","concert 06/01/1943, but delayed one day today. date tomorrow MM/DD/YYYY? Options: 06/03/1943 (B) 03/15/1943 (C) 08/03/1942 (D) 06/02/1943 (E) 07/04/1943 (F) 05/06/1943"
+date_understanding,89,finetuned_reasoning_safe,(A),A) 06/03/1943,1,36,22,0.6111111111111112,"The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 06/03/1943
+(B) 03/15/1943
+(C) 08/03/1942
+(D) 06/02/1943
+(E) 07/04/1943
+(F) 05/06/1943","concert 06/01/1943, delayed one day today. date tomorrow MM/DD/YYYY? Options: (A) 06/03/1943 (B) 03/15/1943 (C) 08/03/1942 (D) 06/02/1943 (E) 07/04/1943 (F) 05/06/1943"
+date_understanding,209,none,(D),B,0,30,30,1.0,"It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 03/09/2022
+(B) 09/10/2021
+(C) 08/31/2021
+(D) 09/09/2021
+(E) 09/02/2021
+(F) 09/17/2021","It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 03/09/2022
+(B) 09/10/2021
+(C) 08/31/2021
+(D) 09/09/2021
+(E) 09/02/2021
+(F) 09/17/2021"
+date_understanding,209,original_llmlingua2,(D),08/31/2021,0,30,18,0.6,"It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 03/09/2022
+(B) 09/10/2021
+(C) 08/31/2021
+(D) 09/09/2021
+(E) 09/02/2021
+(F) 09/17/2021","Sept. 1st, 2021 week ago. date 24 hours later MM/DD/YYYY? 03/09/2022 09/10/2021 08/31/2021 (D) 09/09/2021 09/02/2021 (F) 09/17/2021"
+date_understanding,209,finetuned_llmlingua2,(D),09/02/2021,0,30,18,0.6,"It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 03/09/2022
+(B) 09/10/2021
+(C) 08/31/2021
+(D) 09/09/2021
+(E) 09/02/2021
+(F) 09/17/2021",Sept. 2021 week ago. date 24 hours later MM/DD/YYYY? Options: 03/09/2022 09/10/2021 08/31/2021 09/09/2021 (E) 09/02/2021 (F) 09/17/2021
+date_understanding,209,finetuned_stat_hybrid,(D),08/31/2021,0,30,18,0.6,"It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 03/09/2022
+(B) 09/10/2021
+(C) 08/31/2021
+(D) 09/09/2021
+(E) 09/02/2021
+(F) 09/17/2021","Sept. 1st, 2021 week ago. date 24 hours later MM/DD/YYYY? Options: 03/09/2022 09/10/2021 08/31/2021 09/09/2021 09/02/2021 (F) 09/17/2021"
+date_understanding,209,finetuned_reasoning_safe,(D),C,0,30,18,0.6,"It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 03/09/2022
+(B) 09/10/2021
+(C) 08/31/2021
+(D) 09/09/2021
+(E) 09/02/2021
+(F) 09/17/2021",Sept. 2021 week ago. date 24 hours MM/DD/YYYY? 03/09/2022 (B) 09/10/2021 (C) 08/31/2021 (D) 09/09/2021 (E) 09/02/2021 09/17/2021
+date_understanding,85,none,(C),D,0,32,32,1.0,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/30/2011
+(B) 04/10/2011
+(C) 01/29/2011
+(D) 01/28/2011
+(E) 06/29/2010","Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/30/2011
+(B) 04/10/2011
+(C) 01/29/2011
+(D) 01/28/2011
+(E) 06/29/2010"
+date_understanding,85,original_llmlingua2,(C),(E) 06/29/2010,0,32,19,0.59375,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/30/2011
+(B) 04/10/2011
+(C) 01/29/2011
+(D) 01/28/2011
+(E) 06/29/2010","Jan 21, 2011, Jane ate 2 pizzas 5 wings. date week MM/DD/YYYY? 01/30/2011 04/10/2011 01/29/2011 (D) 01/28/2011 (E) 06/29/2010"
+date_understanding,85,finetuned_llmlingua2,(C),01/30/2011,0,32,19,0.59375,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/30/2011
+(B) 04/10/2011
+(C) 01/29/2011
+(D) 01/28/2011
+(E) 06/29/2010","Yesterday, Jan 21, 2011, Jane ate 2 pizzas 5 wings. date week MM/DD/YYYY? 01/30/2011 04/10/2011 01/29/2011 01/28/2011 (E) 06/29/2010"
+date_understanding,85,finetuned_stat_hybrid,(C),01/28/2011,0,32,19,0.59375,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/30/2011
+(B) 04/10/2011
+(C) 01/29/2011
+(D) 01/28/2011
+(E) 06/29/2010","Yesterday, Jan 21, 2011, Jane 2 pizzas 5 wings. date one week today MM/DD/YYYY? 01/30/2011 04/10/2011 01/29/2011 01/28/2011 06/29/2010"
+date_understanding,85,finetuned_reasoning_safe,(C),C,1,32,19,0.59375,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/30/2011
+(B) 04/10/2011
+(C) 01/29/2011
+(D) 01/28/2011
+(E) 06/29/2010","Yesterday, Jan 21, 2011, Jane 2 5 date week today (A) 01/30/2011 (B) (C) 01/29/2011 (D) 01/28/2011 (E) 06/29/2010"
+date_understanding,115,none,(B),(B) 03/06/1973,1,38,38,1.0,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 03/08/1983
+(B) 03/06/1973
+(C) 03/02/1973
+(D) 04/05/1973
+(E) 03/05/2007
+(F) 01/02/1973","Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 03/08/1983
+(B) 03/06/1973
+(C) 03/02/1973
+(D) 04/05/1973
+(E) 03/05/2007
+(F) 01/02/1973"
+date_understanding,115,original_llmlingua2,(B),03/06/1973,0,38,23,0.6052631578947368,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 03/08/1983
+(B) 03/06/1973
+(C) 03/02/1973
+(D) 04/05/1973
+(E) 03/05/2007
+(F) 01/02/1973","Today 3/5, Jane's second time 1973 meteor shower. date tomorrow MM/DD/YYYY? Options: 03/08/1983 (B) 03/06/1973 (C) 03/02/1973 (D) 04/05/1973 (E) 03/05/2007 (F) 01/02/1973"
+date_understanding,115,finetuned_llmlingua2,(B),03/06/1973,0,38,23,0.6052631578947368,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 03/08/1983
+(B) 03/06/1973
+(C) 03/02/1973
+(D) 04/05/1973
+(E) 03/05/2007
+(F) 01/02/1973","Today 3/5, Jane's second time 1973 see meteor shower. date tomorrow MM/DD/YYYY? Options: 03/08/1983 (B) 03/06/1973 03/02/1973 (D) 04/05/1973 (E) 03/05/2007 (F) 01/02/1973"
+date_understanding,115,finetuned_stat_hybrid,(B),03/06/1973,0,38,23,0.6052631578947368,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 03/08/1983
+(B) 03/06/1973
+(C) 03/02/1973
+(D) 04/05/1973
+(E) 03/05/2007
+(F) 01/02/1973","Today 3/5, Jane's second time 1973 see meteor shower. date tomorrow MM/DD/YYYY? Options: 03/08/1983 (B) 03/06/1973 03/02/1973 (D) 04/05/1973 (E) 03/05/2007 (F) 01/02/1973"
+date_understanding,115,finetuned_reasoning_safe,(B),(A) 03/08/1983,0,38,23,0.6052631578947368,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 03/08/1983
+(B) 03/06/1973
+(C) 03/02/1973
+(D) 04/05/1973
+(E) 03/05/2007
+(F) 01/02/1973","Today 3/5, Jane's second time 1973 see meteor shower. date tomorrow MM/DD/YYYY? (A) 03/08/1983 (B) 03/06/1973 (C) 03/02/1973 (D) 04/05/1973 (E) 03/05/2007 01/02/1973"
+date_understanding,21,none,(B),01/11/2011,0,33,33,1.0,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 01/18/2011
+(B) 01/12/2011
+(C) 01/12/2069
+(D) 01/13/2011
+(E) 05/12/2010
+(F) 08/12/2010","Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 01/18/2011
+(B) 01/12/2011
+(C) 01/12/2069
+(D) 01/13/2011
+(E) 05/12/2010
+(F) 08/12/2010"
+date_understanding,21,original_llmlingua2,(B),01/11/2011,0,33,20,0.6060606060606061,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 01/18/2011
+(B) 01/12/2011
+(C) 01/12/2069
+(D) 01/13/2011
+(E) 05/12/2010
+(F) 08/12/2010","Jan 21, 2011, Jane ate 2 pizzas 5 wings. date 10 days ago MM/DD/YYYY? 01/18/2011 01/12/2011 01/12/2069 01/13/2011 05/12/2010 08/12/2010"
+date_understanding,21,finetuned_llmlingua2,(B),"Jane ate 2 pizzas and 5 wings on January 11, 2011.",0,33,20,0.6060606060606061,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 01/18/2011
+(B) 01/12/2011
+(C) 01/12/2069
+(D) 01/13/2011
+(E) 05/12/2010
+(F) 08/12/2010","Yesterday, Jan 21, 2011, Jane ate 2 pizzas 5 wings. date 10 days ago 01/18/2011 01/12/2011 01/12/2069 01/13/2011 05/12/2010 08/12/2010"
+date_understanding,21,finetuned_stat_hybrid,(B),01/11/2011,0,33,20,0.6060606060606061,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 01/18/2011
+(B) 01/12/2011
+(C) 01/12/2069
+(D) 01/13/2011
+(E) 05/12/2010
+(F) 08/12/2010","Yesterday, Jan 21, 2011, Jane 2 pizzas 5 wings. date 10 days ago MM/DD/YYYY? 01/18/2011 01/12/2011 01/12/2069 01/13/2011 05/12/2010 08/12/2010"
+date_understanding,21,finetuned_reasoning_safe,(B),A,0,33,20,0.6060606060606061,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 01/18/2011
+(B) 01/12/2011
+(C) 01/12/2069
+(D) 01/13/2011
+(E) 05/12/2010
+(F) 08/12/2010","Yesterday, Jan 21, 2011, Jane 2 5 date 10 days ago (A) 01/18/2011 (B) (C) (D) 01/13/2011 (E) 05/12/2010 08/12/2010"
+date_understanding,103,none,(A),12/26/2007,0,38,38,1.0,"Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 12/26/2007
+(B) 12/26/1951
+(C) 05/26/2007
+(D) 12/05/2007
+(E) 09/26/2008
+(F) 12/26/2099","Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 12/26/2007
+(B) 12/26/1951
+(C) 05/26/2007
+(D) 12/05/2007
+(E) 09/26/2008
+(F) 12/26/2099"
+date_understanding,103,original_llmlingua2,(A),12/26/2007,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 12/26/2007
+(B) 12/26/1951
+(C) 05/26/2007
+(D) 12/05/2007
+(E) 09/26/2008
+(F) 12/26/2099","Jane John married Jan 2, 1958. golden wedding anniversary. date week ago MM/DD/YYYY? Options: 12/26/2007 (B) 12/26/1951 05/26/2007 (D) 12/05/2007 09/26/2008 (F) 12/26/2099"
+date_understanding,103,finetuned_llmlingua2,(A),12/26/2007,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 12/26/2007
+(B) 12/26/1951
+(C) 05/26/2007
+(D) 12/05/2007
+(E) 09/26/2008
+(F) 12/26/2099","Jane and John married Jan 2, 1958. Today golden wedding anniversary. date one week ago MM/DD/YYYY? 12/26/2007 12/26/1951 05/26/2007 12/05/2007 09/26/2008 (F) 12/26/2099"
+date_understanding,103,finetuned_stat_hybrid,(A),12/26/2007,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 12/26/2007
+(B) 12/26/1951
+(C) 05/26/2007
+(D) 12/05/2007
+(E) 09/26/2008
+(F) 12/26/2099","Jane and John married Jan 2, 1958. Today golden wedding anniversary. date one week ago MM/DD/YYYY? 12/26/2007 12/26/1951 05/26/2007 12/05/2007 09/26/2008 (F) 12/26/2099"
+date_understanding,103,finetuned_reasoning_safe,(A),(A) 12/26/2007,1,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 12/26/2007
+(B) 12/26/1951
+(C) 05/26/2007
+(D) 12/05/2007
+(E) 09/26/2008
+(F) 12/26/2099","Jane and John Jan 2, 1958. Today date one week ago MM/DD/YYYY? (A) 12/26/2007 (B) 12/26/1951 (C) 05/26/2007 (D) 12/05/2007 (E) 09/26/2008 12/26/2099"
+date_understanding,105,none,(C),(C) 06/18/2016,1,43,43,1.0,"On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/18/2030
+(B) 09/18/2016
+(C) 06/18/2016
+(D) 07/18/2015
+(E) 06/22/2016
+(F) 06/25/2016","On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/18/2030
+(B) 09/18/2016
+(C) 06/18/2016
+(D) 07/18/2015
+(E) 06/22/2016
+(F) 06/25/2016"
+date_understanding,105,original_llmlingua2,(C),06/18/2016,0,43,26,0.6046511627906976,"On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/18/2030
+(B) 09/18/2016
+(C) 06/18/2016
+(D) 07/18/2015
+(E) 06/22/2016
+(F) 06/25/2016","May 9th, 2017 Jane bought 40 eggs. ate one day. Today ran out eggs. date one year ago MM/DD/YYYY? 06/18/2030 09/18/2016 06/18/2016 07/18/2015 06/22/2016 (F) 06/25/2016"
+date_understanding,105,finetuned_llmlingua2,(C),09/18/2016,0,43,26,0.6046511627906976,"On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/18/2030
+(B) 09/18/2016
+(C) 06/18/2016
+(D) 07/18/2015
+(E) 06/22/2016
+(F) 06/25/2016",May 2017 Jane bought 40 eggs. ate one day. Today ran out of eggs. date one year ago MM/DD/YYYY? 06/18/2030 09/18/2016 06/18/2016 07/18/2015 06/22/2016 (F) 06/25/2016
+date_understanding,105,finetuned_stat_hybrid,(C),06/18/2016,0,43,26,0.6046511627906976,"On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/18/2030
+(B) 09/18/2016
+(C) 06/18/2016
+(D) 07/18/2015
+(E) 06/22/2016
+(F) 06/25/2016","May 9th, 2017 Jane bought 40 eggs. ate one day. Today ran out eggs. date one year ago today MM/DD/YYYY? 06/18/2030 09/18/2016 06/18/2016 07/18/2015 06/22/2016 06/25/2016"
+date_understanding,105,finetuned_reasoning_safe,(C),C,1,43,26,0.6046511627906976,"On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/18/2030
+(B) 09/18/2016
+(C) 06/18/2016
+(D) 07/18/2015
+(E) 06/22/2016
+(F) 06/25/2016",May 2017 Jane bought 40 eggs. ate one day. Today ran out date one year ago MM/DD/YYYY? 06/18/2030 (B) 09/18/2016 (C) 06/18/2016 (D) 07/18/2015 06/22/2016 06/25/2016
+logical_deduction_three_objects,44,none,(C),B,0,71,71,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive"
+logical_deduction_three_objects,44,original_llmlingua2,(C),(B) mangoes second-most expensive,0,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","paragraphs describe three objects in fixed order. statements logically consistent within each paragraph. fruit stand sells three fruits: oranges, mangoes, plums. plums less expensive than mangoes. oranges less expensive than plums. Options: (A) oranges second-most expensive (B) mangoes second-most expensive (C) plums second-most"
+logical_deduction_three_objects,44,finetuned_llmlingua2,(C),(B) mangoes second-most expensive,0,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. A fruit stand sells three fruits: oranges, mangoes, plums. plums less expensive than mangoes. oranges less expensive plums. Options: (A) oranges second-most expensive (B) mangoes second-most expensive (C) plums second-most expensive"
+logical_deduction_three_objects,44,finetuned_stat_hybrid,(C),(B) mangoes second-most expensive,0,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. A fruit stand sells three fruits: oranges, mangoes, plums. plums less expensive than oranges less expensive plums. Options: (A) oranges second-most expensive (B) mangoes second-most expensive (C) plums second-most expensive"
+logical_deduction_three_objects,44,finetuned_reasoning_safe,(C),(B) mangoes second-most expensive,0,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","paragraphs each describe three objects fixed order. statements logically consistent each paragraph. A fruit stand sells three fruits: oranges, mangoes, plums. plums less expensive than oranges less expensive than plums. Options: (A) oranges second-most expensive (B) mangoes second-most expensive (C) plums second-most expensive"
+logical_deduction_three_objects,98,none,(A),(A),1,86,86,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left"
+logical_deduction_three_objects,98,original_llmlingua2,(A),A,1,86,52,0.6046511627906976,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","following paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. On a branch, three birds: robin, blue jay, crow. robin right of crow. robin left of blue jay. Options: (A) robin is second from left (B) blue jay is second from left (C) crow is second from"
+logical_deduction_three_objects,98,finetuned_llmlingua2,(A),A,1,86,52,0.6046511627906976,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","The paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, blue jay, crow. robin to right of crow. robin left of blue jay. Options: (A) robin second from left (B) blue jay second from left (C) crow is second from left"
+logical_deduction_three_objects,98,finetuned_stat_hybrid,(A),A,1,86,52,0.6046511627906976,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","The following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, blue jay, crow. robin to right of crow. robin left of blue jay. Options: (A) robin second from left (B) blue jay second from left (C) crow second from left"
+logical_deduction_three_objects,98,finetuned_reasoning_safe,(A),A,1,86,52,0.6046511627906976,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, blue jay, and crow. robin right of crow. robin left of blue jay. Options: (A) robin second from left (B) blue jay second from left (C) crow is second from left"
+logical_deduction_three_objects,184,none,(B),(B) Mel finished last,1,56,56,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last"
+logical_deduction_three_objects,184,original_llmlingua2,(B),B,1,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","paragraphs describe three objects fixed order. statements consistent paragraph. golf tournament, three golfers: Dan, Mel, Amy. Dan finished above Amy. Amy Mel. Options: (A) Dan finished last (B) Mel finished last (C) Amy finished"
+logical_deduction_three_objects,184,finetuned_llmlingua2,(B),Mel last,0,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. In golf tournament, three Dan, Mel, Amy. Dan finished above Amy. Amy Mel. Options: (A) Dan (B) Mel last (C) Amy last"
+logical_deduction_three_objects,184,finetuned_stat_hybrid,(B),Dan first,0,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. In golf tournament, three golfers: Dan, Mel, Amy. Dan finished above Amy. Amy Mel. Options: Dan (B) Mel last (C) Amy last"
+logical_deduction_three_objects,184,finetuned_reasoning_safe,(B),(C) Amy finished last,0,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","paragraphs each describe three objects order. statements logically consistent paragraph. golf tournament, three Dan, Mel, Amy. Dan finished above Amy. Amy Mel. Options: (A) Dan last (B) Mel finished last (C) Amy finished last"
+logical_deduction_three_objects,123,none,(B),B,1,73,73,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.
+Options:
+(A) The owl is the leftmost
+(B) The crow is the leftmost
+(C) The cardinal is the leftmost","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.
+Options:
+(A) The owl is the leftmost
+(B) The crow is the leftmost
+(C) The cardinal is the leftmost"
+logical_deduction_three_objects,123,original_llmlingua2,(B),B,1,73,44,0.6027397260273972,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.
+Options:
+(A) The owl is the leftmost
+(B) The crow is the leftmost
+(C) The cardinal is the leftmost","following paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. On a branch, three birds: owl, crow, cardinal. crow left of owl. owl second from left. Options: (A) owl is leftmost (B) crow is leftmost (C) cardinal is leftmost"
+logical_deduction_three_objects,123,finetuned_llmlingua2,(B),(B),1,73,44,0.6027397260273972,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.
+Options:
+(A) The owl is the leftmost
+(B) The crow is the leftmost
+(C) The cardinal is the leftmost","The paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: owl, crow, cardinal. crow is left of owl. owl is second from left. Options: (A) owl leftmost (B) crow leftmost (C) cardinal is leftmost"
+logical_deduction_three_objects,123,finetuned_stat_hybrid,(B),(C),0,73,44,0.6027397260273972,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.
+Options:
+(A) The owl is the leftmost
+(B) The crow is the leftmost
+(C) The cardinal is the leftmost","The following paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. On a branch, three birds: owl, crow, cardinal. crow is left of owl. owl is second left. Options: (A) owl is leftmost (B) crow leftmost (C) cardinal is leftmost"
+logical_deduction_three_objects,123,finetuned_reasoning_safe,(B),(C),0,73,44,0.6027397260273972,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.
+Options:
+(A) The owl is the leftmost
+(B) The crow is the leftmost
+(C) The cardinal is the leftmost","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: owl, crow, and cardinal. crow is left of owl. owl is second left. Options: (A) owl is leftmost (B) crow leftmost (C) cardinal is leftmost"
+logical_deduction_three_objects,121,none,(C),B,0,93,93,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a white book, a black book, and a purple book. The black book is to the left of the purple book. The purple book is to the left of the white book.
+Options:
+(A) The white book is the second from the left
+(B) The black book is the second from the left
+(C) The purple book is the second from the left","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a white book, a black book, and a purple book. The black book is to the left of the purple book. The purple book is to the left of the white book.
+Options:
+(A) The white book is the second from the left
+(B) The black book is the second from the left
+(C) The purple book is the second from the left"
+logical_deduction_three_objects,121,original_llmlingua2,(C),B,0,93,56,0.6021505376344086,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a white book, a black book, and a purple book. The black book is to the left of the purple book. The purple book is to the left of the white book.
+Options:
+(A) The white book is the second from the left
+(B) The black book is the second from the left
+(C) The purple book is the second from the left","paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. On shelf, three books: white book, black book, purple book. black book left of purple book. purple book left of white book. Options: (A) white book is second from left (B) black book second from left (C) purple book is second from"
+logical_deduction_three_objects,121,finetuned_llmlingua2,(C),B,0,93,56,0.6021505376344086,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a white book, a black book, and a purple book. The black book is to the left of the purple book. The purple book is to the left of the white book.
+Options:
+(A) The white book is the second from the left
+(B) The black book is the second from the left
+(C) The purple book is the second from the left","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a shelf, three books: white black purple book. black book is to left of purple book. purple left of white book. Options: (A) white book second from left (B) black book second from left (C) purple book is second from left"
+logical_deduction_three_objects,121,finetuned_stat_hybrid,(C),B,0,93,56,0.6021505376344086,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a white book, a black book, and a purple book. The black book is to the left of the purple book. The purple book is to the left of the white book.
+Options:
+(A) The white book is the second from the left
+(B) The black book is the second from the left
+(C) The purple book is the second from the left","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. On a shelf, three books: white black purple book. black book is to left of purple book. purple left of white book. Options: (A) white book is second from left (B) black book second from left (C) purple book is second from left"
+logical_deduction_three_objects,121,finetuned_reasoning_safe,(C),A,0,93,56,0.6021505376344086,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a white book, a black book, and a purple book. The black book is to the left of the purple book. The purple book is to the left of the white book.
+Options:
+(A) The white book is the second from the left
+(B) The black book is the second from the left
+(C) The purple book is the second from the left","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a shelf, three books: white black and purple book. black book is left of purple book. purple left white book. Options: (A) white book second from left (B) black book is second from left (C) purple book is second from left"
+logical_deduction_three_objects,167,none,(C),The hummingbird is the leftmost,0,74,74,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a crow, a falcon, and a hummingbird. The crow is to the left of the falcon. The hummingbird is to the left of the crow.
+Options:
+(A) The crow is the leftmost
+(B) The falcon is the leftmost
+(C) The hummingbird is the leftmost","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a crow, a falcon, and a hummingbird. The crow is to the left of the falcon. The hummingbird is to the left of the crow.
+Options:
+(A) The crow is the leftmost
+(B) The falcon is the leftmost
+(C) The hummingbird is the leftmost"
+logical_deduction_three_objects,167,original_llmlingua2,(C),(A) crow is leftmost,0,74,44,0.5945945945945946,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a crow, a falcon, and a hummingbird. The crow is to the left of the falcon. The hummingbird is to the left of the crow.
+Options:
+(A) The crow is the leftmost
+(B) The falcon is the leftmost
+(C) The hummingbird is the leftmost","following paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. On branch, three birds: crow, falcon, hummingbird. crow left of falcon. hummingbird to left of crow. Options: (A) crow is leftmost (B) falcon is leftmost (C) hummingbird is leftmost"
+logical_deduction_three_objects,167,finetuned_llmlingua2,(C),(C),1,74,44,0.5945945945945946,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a crow, a falcon, and a hummingbird. The crow is to the left of the falcon. The hummingbird is to the left of the crow.
+Options:
+(A) The crow is the leftmost
+(B) The falcon is the leftmost
+(C) The hummingbird is the leftmost","The paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: crow, falcon, hummingbird. crow to left of falcon. hummingbird to left of crow. Options: (A) crow leftmost (B) falcon leftmost (C) hummingbird is leftmost"
+logical_deduction_three_objects,167,finetuned_stat_hybrid,(C),crow leftmost,0,74,44,0.5945945945945946,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a crow, a falcon, and a hummingbird. The crow is to the left of the falcon. The hummingbird is to the left of the crow.
+Options:
+(A) The crow is the leftmost
+(B) The falcon is the leftmost
+(C) The hummingbird is the leftmost","The following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: crow, falcon, hummingbird. crow is to left of falcon. hummingbird left of crow. Options: (A) crow leftmost (B) falcon leftmost (C) hummingbird leftmost"
+logical_deduction_three_objects,167,finetuned_reasoning_safe,(C),(A) crow leftmost,0,74,44,0.5945945945945946,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a crow, a falcon, and a hummingbird. The crow is to the left of the falcon. The hummingbird is to the left of the crow.
+Options:
+(A) The crow is the leftmost
+(B) The falcon is the leftmost
+(C) The hummingbird is the leftmost","following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: crow, falcon, and hummingbird. crow is left of falcon. hummingbird left of crow. Options: (A) crow leftmost (B) falcon leftmost (C) hummingbird is leftmost"
+logical_deduction_three_objects,9,none,(A),The station wagon is the newest,0,75,75,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a minivan, and a truck. The minivan is newer than the truck. The station wagon is newer than the minivan.
+Options:
+(A) The station wagon is the newest
+(B) The minivan is the newest
+(C) The truck is the newest","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a minivan, and a truck. The minivan is newer than the truck. The station wagon is newer than the minivan.
+Options:
+(A) The station wagon is the newest
+(B) The minivan is the newest
+(C) The truck is the newest"
+logical_deduction_three_objects,9,original_llmlingua2,(A),(C) truck is newest,0,75,45,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a minivan, and a truck. The minivan is newer than the truck. The station wagon is newer than the minivan.
+Options:
+(A) The station wagon is the newest
+(B) The minivan is the newest
+(C) The truck is the newest","paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. In antique car show, three vehicles: station wagon, minivan, truck. minivan newer than truck. station wagon newer than minivan. Options: (A) station wagon newest (B) minivan newest (C) truck is newest"
+logical_deduction_three_objects,9,finetuned_llmlingua2,(A),truck is newest,0,75,45,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a minivan, and a truck. The minivan is newer than the truck. The station wagon is newer than the minivan.
+Options:
+(A) The station wagon is the newest
+(B) The minivan is the newest
+(C) The truck is the newest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: station wagon, minivan, truck. minivan is newer than truck. station wagon newer minivan. Options: (A) station wagon newest (B) minivan newest (C) truck is newest"
+logical_deduction_three_objects,9,finetuned_stat_hybrid,(A),truck is newest,0,75,45,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a minivan, and a truck. The minivan is newer than the truck. The station wagon is newer than the minivan.
+Options:
+(A) The station wagon is the newest
+(B) The minivan is the newest
+(C) The truck is the newest","following paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. In antique car show, three vehicles: station wagon, minivan, truck. minivan is newer than truck. station wagon newer minivan. Options: (A) station wagon newest (B) minivan newest (C) truck is newest"
+logical_deduction_three_objects,9,finetuned_reasoning_safe,(A),(C) truck is newest,0,75,45,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a minivan, and a truck. The minivan is newer than the truck. The station wagon is newer than the minivan.
+Options:
+(A) The station wagon is the newest
+(B) The minivan is the newest
+(C) The truck is the newest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: station wagon, minivan, truck. minivan newer than truck. station wagon newer than minivan. Options: (A) station wagon newest (B) minivan newest (C) truck is newest"
+logical_deduction_three_objects,176,none,(A),(A) The station wagon is the second-newest,1,73,73,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a truck, and a motorcyle. The truck is newer than the station wagon. The motorcyle is the oldest.
+Options:
+(A) The station wagon is the second-newest
+(B) The truck is the second-newest
+(C) The motorcyle is the second-newest","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a truck, and a motorcyle. The truck is newer than the station wagon. The motorcyle is the oldest.
+Options:
+(A) The station wagon is the second-newest
+(B) The truck is the second-newest
+(C) The motorcyle is the second-newest"
+logical_deduction_three_objects,176,original_llmlingua2,(A),A,1,73,44,0.6027397260273972,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a truck, and a motorcyle. The truck is newer than the station wagon. The motorcyle is the oldest.
+Options:
+(A) The station wagon is the second-newest
+(B) The truck is the second-newest
+(C) The motorcyle is the second-newest","paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. In antique car show, three vehicles: station wagon, truck, motorcyle. truck newer than station wagon. motorcyle oldest. Options: (A) station wagon second-newest (B) truck is second-newest (C) motorcyle is second-newest"
+logical_deduction_three_objects,176,finetuned_llmlingua2,(A),A,1,73,44,0.6027397260273972,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a truck, and a motorcyle. The truck is newer than the station wagon. The motorcyle is the oldest.
+Options:
+(A) The station wagon is the second-newest
+(B) The truck is the second-newest
+(C) The motorcyle is the second-newest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: station wagon, truck, motorcyle. truck is newer than station wagon. motorcyle is oldest. Options: (A) station wagon second-newest (B) truck second-newest (C) motorcyle second-newest"
+logical_deduction_three_objects,176,finetuned_stat_hybrid,(A),A,1,73,44,0.6027397260273972,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a truck, and a motorcyle. The truck is newer than the station wagon. The motorcyle is the oldest.
+Options:
+(A) The station wagon is the second-newest
+(B) The truck is the second-newest
+(C) The motorcyle is the second-newest","following paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. In antique car show, three vehicles: station wagon, truck, motorcyle. truck is newer than station wagon. motorcyle is oldest. Options: (A) station wagon second-newest (B) truck second-newest (C) motorcyle second-newest"
+logical_deduction_three_objects,176,finetuned_reasoning_safe,(A),A,1,73,44,0.6027397260273972,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a truck, and a motorcyle. The truck is newer than the station wagon. The motorcyle is the oldest.
+Options:
+(A) The station wagon is the second-newest
+(B) The truck is the second-newest
+(C) The motorcyle is the second-newest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: station wagon, truck, and motorcyle. truck is newer than station wagon. motorcyle oldest. Options: (A) station wagon second-newest (B) truck second-newest (C) motorcyle second-newest"
+logical_deduction_three_objects,197,none,(B),B,1,66,66,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, and mangoes. The mangoes are the cheapest. The cantaloupes are the second-most expensive.
+Options:
+(A) The cantaloupes are the most expensive
+(B) The watermelons are the most expensive
+(C) The mangoes are the most expensive","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, and mangoes. The mangoes are the cheapest. The cantaloupes are the second-most expensive.
+Options:
+(A) The cantaloupes are the most expensive
+(B) The watermelons are the most expensive
+(C) The mangoes are the most expensive"
+logical_deduction_three_objects,197,original_llmlingua2,(B),B,1,66,40,0.6060606060606061,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, and mangoes. The mangoes are the cheapest. The cantaloupes are the second-most expensive.
+Options:
+(A) The cantaloupes are the most expensive
+(B) The watermelons are the most expensive
+(C) The mangoes are the most expensive","following paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. fruit stand sells three fruits: cantaloupes, watermelons, mangoes. mangoes cheapest. cantaloupes second-most expensive. Options: (A) cantaloupes most expensive (B) watermelons most expensive (C) mangoes most"
+logical_deduction_three_objects,197,finetuned_llmlingua2,(B),B,1,66,40,0.6060606060606061,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, and mangoes. The mangoes are the cheapest. The cantaloupes are the second-most expensive.
+Options:
+(A) The cantaloupes are the most expensive
+(B) The watermelons are the most expensive
+(C) The mangoes are the most expensive","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, mangoes. mangoes cheapest. cantaloupes second-most expensive. Options: (A) cantaloupes most expensive (B) watermelons most expensive (C) mangoes most expensive"
+logical_deduction_three_objects,197,finetuned_stat_hybrid,(B),(B),1,66,40,0.6060606060606061,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, and mangoes. The mangoes are the cheapest. The cantaloupes are the second-most expensive.
+Options:
+(A) The cantaloupes are the most expensive
+(B) The watermelons are the most expensive
+(C) The mangoes are the most expensive","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, mangoes. mangoes are cheapest. cantaloupes second-most expensive. Options: (A) cantaloupes most expensive (B) watermelons most (C) mangoes most expensive"
+logical_deduction_three_objects,197,finetuned_reasoning_safe,(B),B,1,66,40,0.6060606060606061,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, and mangoes. The mangoes are the cheapest. The cantaloupes are the second-most expensive.
+Options:
+(A) The cantaloupes are the most expensive
+(B) The watermelons are the most expensive
+(C) The mangoes are the most expensive","paragraphs each describe three objects fixed order. statements logically consistent each paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, and mangoes. mangoes cheapest. cantaloupes second-most expensive. Options: (A) cantaloupes most expensive (B) watermelons most expensive (C) mangoes most expensive"
+logical_deduction_three_objects,113,none,(A),The motorcyle is the oldest,0,70,70,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the oldest
+(B) The bus is the oldest
+(C) The tractor is the oldest","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the oldest
+(B) The bus is the oldest
+(C) The tractor is the oldest"
+logical_deduction_three_objects,113,original_llmlingua2,(A),(A) motorcyle oldest,1,70,42,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the oldest
+(B) The bus is the oldest
+(C) The tractor is the oldest","following paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. In antique car show, three vehicles: motorcyle, bus, tractor. motorcyle oldest. bus newer than tractor. Options: (A) motorcyle oldest (B) bus is oldest (C) tractor is oldest"
+logical_deduction_three_objects,113,finetuned_llmlingua2,(A),(A) motorcycle is oldest,1,70,42,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the oldest
+(B) The bus is the oldest
+(C) The tractor is the oldest","The paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: motorcyle, bus, tractor. motorcyle is oldest. bus newer tractor. Options: (A) motorcyle is oldest (B) bus oldest (C) tractor is oldest"
+logical_deduction_three_objects,113,finetuned_stat_hybrid,(A),(A) motorcycle is oldest,1,70,42,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the oldest
+(B) The bus is the oldest
+(C) The tractor is the oldest","following paragraphs each describe three objects arranged in fixed order. statements are logically consistent paragraph. In antique car show, three vehicles: motorcyle, bus, tractor. motorcyle is oldest. bus newer tractor. Options: (A) motorcyle is oldest (B) bus oldest (C) tractor is oldest"
+logical_deduction_three_objects,113,finetuned_reasoning_safe,(A),A,1,70,42,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the oldest
+(B) The bus is the oldest
+(C) The tractor is the oldest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: motorcyle, bus, and tractor. motorcyle is oldest. bus newer than tractor. Options: (A) motorcyle oldest (B) bus oldest (C) tractor is oldest"
+logical_deduction_three_objects,3,none,(B),(B),1,77,77,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the rightmost
+(B) The blue jay is the rightmost
+(C) The crow is the rightmost","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the rightmost
+(B) The blue jay is the rightmost
+(C) The crow is the rightmost"
+logical_deduction_three_objects,3,original_llmlingua2,(B),B,1,77,46,0.5974025974025974,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the rightmost
+(B) The blue jay is the rightmost
+(C) The crow is the rightmost","following paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. On branch, three birds: robin, blue jay, crow. robin right of crow. robin left of blue jay. Options: (A) robin is rightmost (B) blue jay is rightmost (C) crow is rightmost"
+logical_deduction_three_objects,3,finetuned_llmlingua2,(B),(C),0,77,46,0.5974025974025974,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the rightmost
+(B) The blue jay is the rightmost
+(C) The crow is the rightmost","The paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, blue jay, crow. robin to right of crow. robin left of blue jay. Options: (A) robin rightmost (B) blue jay rightmost (C) crow is rightmost"
+logical_deduction_three_objects,3,finetuned_stat_hybrid,(B),(C),0,77,46,0.5974025974025974,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the rightmost
+(B) The blue jay is the rightmost
+(C) The crow is the rightmost","The following paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. On a branch, three birds: robin, blue jay, crow. robin to right of crow. robin left of blue jay. Options: (A) robin rightmost (B) blue jay rightmost (C) crow is rightmost"
+logical_deduction_three_objects,3,finetuned_reasoning_safe,(B),(C),0,77,46,0.5974025974025974,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the rightmost
+(B) The blue jay is the rightmost
+(C) The crow is the rightmost","following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, blue jay, and crow. robin right of crow. robin left of blue jay. Options: (A) robin rightmost (B) blue jay rightmost (C) crow is rightmost"
+logical_deduction_three_objects,51,none,(A),The oranges are the cheapest,0,68,68,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the cheapest
+(B) The mangoes are the cheapest
+(C) The plums are the cheapest","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the cheapest
+(B) The mangoes are the cheapest
+(C) The plums are the cheapest"
+logical_deduction_three_objects,51,original_llmlingua2,(A),oranges cheapest,0,68,41,0.6029411764705882,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the cheapest
+(B) The mangoes are the cheapest
+(C) The plums are the cheapest","paragraphs describe three objects in fixed order. statements logically consistent within each paragraph. fruit stand sells three fruits: oranges, mangoes, plums. plums less expensive than mangoes. oranges less expensive than plums. Options: (A) oranges cheapest (B) mangoes cheapest (C) plums cheapest"
+logical_deduction_three_objects,51,finetuned_llmlingua2,(A),oranges cheapest,0,68,41,0.6029411764705882,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the cheapest
+(B) The mangoes are the cheapest
+(C) The plums are the cheapest","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. A fruit stand sells three fruits: oranges, mangoes, plums. plums less expensive than mangoes. oranges less expensive plums. Options: (A) oranges cheapest (B) mangoes cheapest (C) plums cheapest"
+logical_deduction_three_objects,51,finetuned_stat_hybrid,(A),A,1,68,41,0.6029411764705882,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the cheapest
+(B) The mangoes are the cheapest
+(C) The plums are the cheapest","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. A fruit stand sells three fruits: oranges, mangoes, plums. plums are less expensive than mangoes. oranges less plums. Options: (A) oranges cheapest (B) mangoes cheapest (C) plums cheapest"
+logical_deduction_three_objects,51,finetuned_reasoning_safe,(A),(C) plums cheapest,0,68,41,0.6029411764705882,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the cheapest
+(B) The mangoes are the cheapest
+(C) The plums are the cheapest","paragraphs each describe three objects fixed order. statements are logically consistent each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. plums less expensive than oranges less expensive than plums. Options: (A) oranges cheapest (B) mangoes (C) plums cheapest"
+logical_deduction_three_objects,15,none,(A),A,1,69,69,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, watermelons, and cantaloupes. The watermelons are the second-most expensive. The loquats are more expensive than the cantaloupes.
+Options:
+(A) The loquats are the most expensive
+(B) The watermelons are the most expensive
+(C) The cantaloupes are the most expensive","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, watermelons, and cantaloupes. The watermelons are the second-most expensive. The loquats are more expensive than the cantaloupes.
+Options:
+(A) The loquats are the most expensive
+(B) The watermelons are the most expensive
+(C) The cantaloupes are the most expensive"
+logical_deduction_three_objects,15,original_llmlingua2,(A),B,0,69,41,0.5942028985507246,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, watermelons, and cantaloupes. The watermelons are the second-most expensive. The loquats are more expensive than the cantaloupes.
+Options:
+(A) The loquats are the most expensive
+(B) The watermelons are the most expensive
+(C) The cantaloupes are the most expensive","paragraphs describe three objects in fixed order. statements logically consistent within each paragraph. fruit stand sells three fruits: loquats, watermelons, cantaloupes. watermelons second-most expensive. loquats more expensive than cantaloupes. Options: (A) loquats most expensive (B) watermelons most expensive (C) cantaloupes most"
+logical_deduction_three_objects,15,finetuned_llmlingua2,(A),B,0,69,41,0.5942028985507246,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, watermelons, and cantaloupes. The watermelons are the second-most expensive. The loquats are more expensive than the cantaloupes.
+Options:
+(A) The loquats are the most expensive
+(B) The watermelons are the most expensive
+(C) The cantaloupes are the most expensive","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. A fruit stand sells three fruits: loquats, watermelons, cantaloupes. watermelons second-most expensive. loquats more expensive than cantaloupes. Options: (A) loquats most expensive (B) watermelons most (C) cantaloupes most expensive"
+logical_deduction_three_objects,15,finetuned_stat_hybrid,(A),B,0,69,41,0.5942028985507246,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, watermelons, and cantaloupes. The watermelons are the second-most expensive. The loquats are more expensive than the cantaloupes.
+Options:
+(A) The loquats are the most expensive
+(B) The watermelons are the most expensive
+(C) The cantaloupes are the most expensive","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. A fruit stand sells three fruits: loquats, watermelons, cantaloupes. watermelons are second-most expensive. loquats more than cantaloupes. Options: (A) loquats most (B) watermelons most (C) cantaloupes most expensive"
+logical_deduction_three_objects,15,finetuned_reasoning_safe,(A),(A) loquats most expensive,1,69,41,0.5942028985507246,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, watermelons, and cantaloupes. The watermelons are the second-most expensive. The loquats are more expensive than the cantaloupes.
+Options:
+(A) The loquats are the most expensive
+(B) The watermelons are the most expensive
+(C) The cantaloupes are the most expensive","paragraphs each describe three objects fixed order. statements logically consistent each paragraph. A fruit stand sells three loquats, watermelons, cantaloupes. watermelons second-most expensive. loquats more expensive than cantaloupes. Options: (A) loquats most expensive (B) watermelons most expensive (C) cantaloupes most expensive"
+logical_deduction_three_objects,89,none,(B),B,1,70,70,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, an owl, and a hawk. The robin is to the right of the hawk. The owl is the leftmost.
+Options:
+(A) The robin is the leftmost
+(B) The owl is the leftmost
+(C) The hawk is the leftmost","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, an owl, and a hawk. The robin is to the right of the hawk. The owl is the leftmost.
+Options:
+(A) The robin is the leftmost
+(B) The owl is the leftmost
+(C) The hawk is the leftmost"
+logical_deduction_three_objects,89,original_llmlingua2,(B),B,1,70,42,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, an owl, and a hawk. The robin is to the right of the hawk. The owl is the leftmost.
+Options:
+(A) The robin is the leftmost
+(B) The owl is the leftmost
+(C) The hawk is the leftmost","following paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. On a branch, three birds: robin, owl, hawk. robin right of hawk. owl leftmost. Options: (A) robin is leftmost (B) owl is leftmost (C) hawk is leftmost"
+logical_deduction_three_objects,89,finetuned_llmlingua2,(B),B,1,70,42,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, an owl, and a hawk. The robin is to the right of the hawk. The owl is the leftmost.
+Options:
+(A) The robin is the leftmost
+(B) The owl is the leftmost
+(C) The hawk is the leftmost","The following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, owl, hawk. robin to right of hawk. owl leftmost. Options: (A) robin leftmost (B) owl leftmost (C) hawk is leftmost"
+logical_deduction_three_objects,89,finetuned_stat_hybrid,(B),B,1,70,42,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, an owl, and a hawk. The robin is to the right of the hawk. The owl is the leftmost.
+Options:
+(A) The robin is the leftmost
+(B) The owl is the leftmost
+(C) The hawk is the leftmost","The following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, owl, hawk. robin is to right of hawk. owl leftmost. Options: (A) robin leftmost (B) owl leftmost (C) hawk leftmost"
+logical_deduction_three_objects,89,finetuned_reasoning_safe,(B),B,1,70,42,0.6,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, an owl, and a hawk. The robin is to the right of the hawk. The owl is the leftmost.
+Options:
+(A) The robin is the leftmost
+(B) The owl is the leftmost
+(C) The hawk is the leftmost","following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, owl, and hawk. robin is right of hawk. owl leftmost. Options: (A) robin leftmost (B) owl leftmost (C) hawk is leftmost"
+logical_deduction_three_objects,209,none,(A),(B),0,77,77,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a raven. The falcon is to the left of the blue jay. The falcon is to the right of the raven.
+Options:
+(A) The blue jay is the rightmost
+(B) The falcon is the rightmost
+(C) The raven is the rightmost","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a raven. The falcon is to the left of the blue jay. The falcon is to the right of the raven.
+Options:
+(A) The blue jay is the rightmost
+(B) The falcon is the rightmost
+(C) The raven is the rightmost"
+logical_deduction_three_objects,209,original_llmlingua2,(A),B,0,77,46,0.5974025974025974,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a raven. The falcon is to the left of the blue jay. The falcon is to the right of the raven.
+Options:
+(A) The blue jay is the rightmost
+(B) The falcon is the rightmost
+(C) The raven is the rightmost","following paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. On branch, three birds: blue jay, falcon, raven. falcon left of blue jay. falcon right of raven. Options: (A) blue jay is rightmost (B) falcon is rightmost (C) raven is rightmost"
+logical_deduction_three_objects,209,finetuned_llmlingua2,(A),A,1,77,46,0.5974025974025974,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a raven. The falcon is to the left of the blue jay. The falcon is to the right of the raven.
+Options:
+(A) The blue jay is the rightmost
+(B) The falcon is the rightmost
+(C) The raven is the rightmost","The paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: blue jay, falcon, raven. falcon left of blue jay. falcon right of raven. Options: (A) blue jay is rightmost (B) falcon rightmost (C) raven is rightmost"
+logical_deduction_three_objects,209,finetuned_stat_hybrid,(A),B,0,77,46,0.5974025974025974,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a raven. The falcon is to the left of the blue jay. The falcon is to the right of the raven.
+Options:
+(A) The blue jay is the rightmost
+(B) The falcon is the rightmost
+(C) The raven is the rightmost","The following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: blue jay, falcon, raven. falcon left of blue jay. falcon right of raven. Options: (A) blue jay rightmost (B) falcon rightmost (C) raven is rightmost"
+logical_deduction_three_objects,209,finetuned_reasoning_safe,(A),(C),0,77,46,0.5974025974025974,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a raven. The falcon is to the left of the blue jay. The falcon is to the right of the raven.
+Options:
+(A) The blue jay is the rightmost
+(B) The falcon is the rightmost
+(C) The raven is the rightmost","following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: blue jay, falcon, and raven. falcon left of blue jay. falcon right of raven. Options: (A) blue jay rightmost (B) falcon rightmost (C) raven is rightmost"
+logical_deduction_three_objects,85,none,(A),The convertible is the newest,0,72,72,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a limousine, and a bus. The limousine is older than the bus. The bus is older than the convertible.
+Options:
+(A) The convertible is the newest
+(B) The limousine is the newest
+(C) The bus is the newest","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a limousine, and a bus. The limousine is older than the bus. The bus is older than the convertible.
+Options:
+(A) The convertible is the newest
+(B) The limousine is the newest
+(C) The bus is the newest"
+logical_deduction_three_objects,85,original_llmlingua2,(A),(A) convertible is newest,1,72,43,0.5972222222222222,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a limousine, and a bus. The limousine is older than the bus. The bus is older than the convertible.
+Options:
+(A) The convertible is the newest
+(B) The limousine is the newest
+(C) The bus is the newest","paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. In antique car show, three vehicles: convertible, limousine, bus. limousine older than bus. bus older than convertible. Options: (A) convertible is newest (B) limousine newest (C) bus is newest"
+logical_deduction_three_objects,85,finetuned_llmlingua2,(A),convertible newest,0,72,43,0.5972222222222222,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a limousine, and a bus. The limousine is older than the bus. The bus is older than the convertible.
+Options:
+(A) The convertible is the newest
+(B) The limousine is the newest
+(C) The bus is the newest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: convertible, limousine, bus. limousine is older than bus. bus older than convertible. Options: (A) convertible newest (B) limousine newest (C) bus is newest"
+logical_deduction_three_objects,85,finetuned_stat_hybrid,(A),convertible newest,0,72,43,0.5972222222222222,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a limousine, and a bus. The limousine is older than the bus. The bus is older than the convertible.
+Options:
+(A) The convertible is the newest
+(B) The limousine is the newest
+(C) The bus is the newest","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. In antique car show, three vehicles: convertible, limousine, bus. limousine is older than bus. bus is older than convertible. Options: (A) convertible newest (B) limousine newest (C) bus is newest"
+logical_deduction_three_objects,85,finetuned_reasoning_safe,(A),convertible newest,0,72,43,0.5972222222222222,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a limousine, and a bus. The limousine is older than the bus. The bus is older than the convertible.
+Options:
+(A) The convertible is the newest
+(B) The limousine is the newest
+(C) The bus is the newest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: convertible, limousine, and bus. limousine older than bus. bus older than convertible. Options: (A) convertible newest (B) limousine newest (C) bus is newest"
+logical_deduction_three_objects,115,none,(B),B,1,71,71,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and loquats. The pears are more expensive than the loquats. The pears are less expensive than the apples.
+Options:
+(A) The apples are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The loquats are the second-most expensive","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and loquats. The pears are more expensive than the loquats. The pears are less expensive than the apples.
+Options:
+(A) The apples are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The loquats are the second-most expensive"
+logical_deduction_three_objects,115,original_llmlingua2,(B),B,1,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and loquats. The pears are more expensive than the loquats. The pears are less expensive than the apples.
+Options:
+(A) The apples are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The loquats are the second-most expensive","paragraphs describe three objects in fixed order. statements logically consistent within each paragraph. fruit stand sells three fruits: apples, pears, loquats. pears more expensive than loquats. pears less expensive than apples. Options: (A) apples second-most expensive (B) pears second-most expensive (C) loquats second-most"
+logical_deduction_three_objects,115,finetuned_llmlingua2,(B),B,1,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and loquats. The pears are more expensive than the loquats. The pears are less expensive than the apples.
+Options:
+(A) The apples are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The loquats are the second-most expensive","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. A fruit stand sells three apples, pears, loquats. pears more expensive than loquats. pears less expensive than apples. Options: (A) apples second-most expensive (B) pears second-most expensive (C) loquats second-most expensive"
+logical_deduction_three_objects,115,finetuned_stat_hybrid,(B),B,1,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and loquats. The pears are more expensive than the loquats. The pears are less expensive than the apples.
+Options:
+(A) The apples are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The loquats are the second-most expensive","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. A fruit stand sells three fruits: apples, pears, loquats. pears more expensive than loquats. pears less expensive apples. Options: (A) apples second-most expensive (B) pears second-most expensive (C) loquats second-most expensive"
+logical_deduction_three_objects,115,finetuned_reasoning_safe,(B),B,1,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and loquats. The pears are more expensive than the loquats. The pears are less expensive than the apples.
+Options:
+(A) The apples are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The loquats are the second-most expensive","paragraphs each describe three objects fixed order. statements logically consistent each paragraph. A fruit stand sells three apples, pears, loquats. pears more expensive than loquats. pears less expensive than apples. Options: (A) apples second-most expensive (B) pears second-most expensive (C) loquats second-most expensive"
+logical_deduction_three_objects,21,none,(B),B,1,93,93,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a black book, an orange book, and a blue book. The blue book is to the right of the orange book. The orange book is to the right of the black book.
+Options:
+(A) The black book is the second from the left
+(B) The orange book is the second from the left
+(C) The blue book is the second from the left","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a black book, an orange book, and a blue book. The blue book is to the right of the orange book. The orange book is to the right of the black book.
+Options:
+(A) The black book is the second from the left
+(B) The orange book is the second from the left
+(C) The blue book is the second from the left"
+logical_deduction_three_objects,21,original_llmlingua2,(B),B,1,93,56,0.6021505376344086,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a black book, an orange book, and a blue book. The blue book is to the right of the orange book. The orange book is to the right of the black book.
+Options:
+(A) The black book is the second from the left
+(B) The orange book is the second from the left
+(C) The blue book is the second from the left","paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. On a shelf, three books: black book, orange book, blue book. blue book right of orange book. orange book right of black book. Options: (A) black book second from left (B) orange book second from left (C) blue book is second from"
+logical_deduction_three_objects,21,finetuned_llmlingua2,(B),A,0,93,56,0.6021505376344086,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a black book, an orange book, and a blue book. The blue book is to the right of the orange book. The orange book is to the right of the black book.
+Options:
+(A) The black book is the second from the left
+(B) The orange book is the second from the left
+(C) The blue book is the second from the left","The paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a shelf, three books: black orange blue book. blue book to right of orange book. orange right of black book. Options: (A) black book second from left (B) orange is second from left (C) blue book is second from left"
+logical_deduction_three_objects,21,finetuned_stat_hybrid,(B),A,0,93,56,0.6021505376344086,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a black book, an orange book, and a blue book. The blue book is to the right of the orange book. The orange book is to the right of the black book.
+Options:
+(A) The black book is the second from the left
+(B) The orange book is the second from the left
+(C) The blue book is the second from the left","The paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. On a shelf, three books: black orange blue book. blue book to right of orange book. orange book right of black book. Options: (A) black book is second from left (B) orange second from left (C) blue book is second from left"
+logical_deduction_three_objects,21,finetuned_reasoning_safe,(B),A,0,93,56,0.6021505376344086,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a black book, an orange book, and a blue book. The blue book is to the right of the orange book. The orange book is to the right of the black book.
+Options:
+(A) The black book is the second from the left
+(B) The orange book is the second from the left
+(C) The blue book is the second from the left","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a shelf, three books: black orange and blue book. blue book to right of orange book. orange right of black book. Options: (A) black book second from left (B) orange is second from left (C) blue book is second from left"
+logical_deduction_three_objects,103,none,(A),The truck is the newest,0,72,72,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a truck, a minivan, and a tractor. The truck is newer than the minivan. The minivan is newer than the tractor.
+Options:
+(A) The truck is the newest
+(B) The minivan is the newest
+(C) The tractor is the newest","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a truck, a minivan, and a tractor. The truck is newer than the minivan. The minivan is newer than the tractor.
+Options:
+(A) The truck is the newest
+(B) The minivan is the newest
+(C) The tractor is the newest"
+logical_deduction_three_objects,103,original_llmlingua2,(A),truck is newest,0,72,43,0.5972222222222222,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a truck, a minivan, and a tractor. The truck is newer than the minivan. The minivan is newer than the tractor.
+Options:
+(A) The truck is the newest
+(B) The minivan is the newest
+(C) The tractor is the newest","paragraphs describe three objects arranged in fixed order. statements logically consistent within each paragraph. In antique car show, three vehicles: truck, minivan, tractor. truck newer than minivan. minivan newer than tractor. Options: (A) truck is newest (B) minivan newest (C) tractor is newest"
+logical_deduction_three_objects,103,finetuned_llmlingua2,(A),truck newest,0,72,43,0.5972222222222222,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a truck, a minivan, and a tractor. The truck is newer than the minivan. The minivan is newer than the tractor.
+Options:
+(A) The truck is the newest
+(B) The minivan is the newest
+(C) The tractor is the newest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: truck, minivan, tractor. truck is newer than minivan. minivan newer than tractor. Options: (A) truck newest (B) minivan newest (C) tractor is newest"
+logical_deduction_three_objects,103,finetuned_stat_hybrid,(A),truck newest,0,72,43,0.5972222222222222,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a truck, a minivan, and a tractor. The truck is newer than the minivan. The minivan is newer than the tractor.
+Options:
+(A) The truck is the newest
+(B) The minivan is the newest
+(C) The tractor is the newest","following paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. In antique car show, three vehicles: truck, minivan, tractor. truck is newer than minivan. minivan is newer tractor. Options: (A) truck newest (B) minivan newest (C) tractor is newest"
+logical_deduction_three_objects,103,finetuned_reasoning_safe,(A),(C),0,72,43,0.5972222222222222,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a truck, a minivan, and a tractor. The truck is newer than the minivan. The minivan is newer than the tractor.
+Options:
+(A) The truck is the newest
+(B) The minivan is the newest
+(C) The tractor is the newest","paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. In antique car show, three vehicles: truck, minivan, and tractor. truck newer than minivan. minivan newer than tractor. Options: (A) truck newest (B) minivan newest (C) tractor is newest"
+logical_deduction_three_objects,105,none,(B),B,1,56,56,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.
+Options:
+(A) Eve finished last
+(B) Joe finished last
+(C) Amy finished last","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.
+Options:
+(A) Eve finished last
+(B) Joe finished last
+(C) Amy finished last"
+logical_deduction_three_objects,105,original_llmlingua2,(B),B,1,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.
+Options:
+(A) Eve finished last
+(B) Joe finished last
+(C) Amy finished last","paragraphs describe three objects fixed order. statements consistent paragraph. golf tournament, three golfers: Eve, Joe, Amy. Eve finished below Amy. above Joe. Options: (A) Eve finished last (B) Joe finished last (C) Amy finished"
+logical_deduction_three_objects,105,finetuned_llmlingua2,(B),Joe last,0,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.
+Options:
+(A) Eve finished last
+(B) Joe finished last
+(C) Amy finished last","paragraphs each describe three objects fixed order. statements logically consistent paragraph. In golf tournament, three Eve, Joe, Amy. Eve finished below Amy. above Joe. Options: Eve last (B) Joe last (C) Amy finished last"
+logical_deduction_three_objects,105,finetuned_stat_hybrid,(B),Amy last,0,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.
+Options:
+(A) Eve finished last
+(B) Joe finished last
+(C) Amy finished last","paragraphs each describe three objects fixed order. statements logically consistent paragraph. In golf tournament, three golfers: Eve, Joe, Amy. Eve finished below Amy. above Joe. Options: Eve last Joe last (C) Amy finished last"
+logical_deduction_three_objects,105,finetuned_reasoning_safe,(B),B,1,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.
+Options:
+(A) Eve finished last
+(B) Joe finished last
+(C) Amy finished last","paragraphs each describe three objects order. statements logically consistent paragraph. golf tournament, three Eve, Joe, Amy. Eve finished below Amy. above Joe. Options: (A) Eve last (B) Joe finished last (C) Amy finished last"
+multistep_arithmetic_two,44,none,37,10,0,16,16,1.0,((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =,((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =
+multistep_arithmetic_two,44,original_llmlingua2,37,-38,0,16,10,0.625,((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =,((-2 5 * -5 6) (-5 * -4 + 2
+multistep_arithmetic_two,44,finetuned_llmlingua2,37,-11,0,16,10,0.625,((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =,((-2 - 5 * - + (-5 -4 2 =
+multistep_arithmetic_two,44,finetuned_stat_hybrid,37,(-7 -14 8 -10),0,16,10,0.625,((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =,((-2 - 5 -5 6) (-5 -4 2 -2)) =
+multistep_arithmetic_two,44,finetuned_reasoning_safe,37,(-7 -14 8 -10),0,16,10,0.625,((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =,((-2 - 5 -5 6) (-5 -4 2 -2)) =
+multistep_arithmetic_two,98,none,-13,-14,0,16,16,1.0,((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =,((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =
+multistep_arithmetic_two,98,original_llmlingua2,-13,(-2 -16),0,16,10,0.625,((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =,((-9 - -7 2 2) (-7 -9 - -1 0))
+multistep_arithmetic_two,98,finetuned_llmlingua2,-13,-20,0,16,10,0.625,((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =,((-9 - -7 + 2 (-7 + -9 - -1
+multistep_arithmetic_two,98,finetuned_stat_hybrid,-13,(-2 -16 14 7),0,16,10,0.625,((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =,((-9 - -7 2 2) (-7 -9 -1 0)) =
+multistep_arithmetic_two,98,finetuned_reasoning_safe,-13,(-2 -16),0,16,10,0.625,((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =,((-9 - -7 2 2) (-7 -9 -1 0)) =
+multistep_arithmetic_two,184,none,312,-14,0,16,16,1.0,((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =,((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =
+multistep_arithmetic_two,184,original_llmlingua2,312,35,0,16,10,0.625,((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =,((7 * 2 + 4 - -6) 7 - -2))
+multistep_arithmetic_two,184,finetuned_llmlingua2,312,15,0,16,10,0.625,((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =,((7 * 2 + 4 - - 7 - =
+multistep_arithmetic_two,184,finetuned_stat_hybrid,312,(5 11 11 4),0,16,10,0.625,((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =,((7 2 + 4 -6) (6 7 7 -2)) =
+multistep_arithmetic_two,184,finetuned_reasoning_safe,312,(5 11 11 4),0,16,10,0.625,((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =,((7 2 + 4 -6) (6 7 7 -2)) =
+multistep_arithmetic_two,123,none,0,-120,0,16,16,1.0,((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =,((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =
+multistep_arithmetic_two,123,original_llmlingua2,0,-15,0,16,10,0.625,((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =,((-1 - 9 6 3) 8 - -4 - -4))
+multistep_arithmetic_two,123,finetuned_llmlingua2,0,-53,0,16,10,0.625,((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =,((-1 - 9 * 6 + - 8 - =
+multistep_arithmetic_two,123,finetuned_stat_hybrid,0,(-12 -24),0,16,10,0.625,((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =,((-1 9 6 + 3) (0 - 8 -4 -4))
+multistep_arithmetic_two,123,finetuned_reasoning_safe,0,(-12 -24),0,16,10,0.625,((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =,((-1 9 6 + 3) (0 - 8 -4 -4))
+multistep_arithmetic_two,121,none,-8,-4,0,16,16,1.0,((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =,((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =
+multistep_arithmetic_two,121,original_llmlingua2,-8,(25 -13),0,16,10,0.625,((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =,((3 3 - -4 2) (-2 - -7 -2 1))
+multistep_arithmetic_two,121,finetuned_llmlingua2,-8,-14,0,16,10,0.625,((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =,((3 + 3 - -4 - 2) (-2 - 1))
+multistep_arithmetic_two,121,finetuned_stat_hybrid,-8,-20,0,16,10,0.625,((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =,((3 + 3 - -4 - 2) (-2 -7 1))
+multistep_arithmetic_two,121,finetuned_reasoning_safe,-8,-20,0,16,10,0.625,((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =,((3 + 3 - -4 - 2) (-2 -7 1))
+multistep_arithmetic_two,167,none,-224,-54,0,16,16,1.0,((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =,((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =
+multistep_arithmetic_two,167,original_llmlingua2,-224,-144,0,16,10,0.625,((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =,2 - 3 * 3) (-8 * -9 * 3))
+multistep_arithmetic_two,167,finetuned_llmlingua2,-224,-15,0,16,10,0.625,((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =,((3 - 2 - * 3) + (-8 -1 -9
+multistep_arithmetic_two,167,finetuned_stat_hybrid,-224,-15,0,16,10,0.625,((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =,((3 - 2 3 3) + (-8 -1 -9 3))
+multistep_arithmetic_two,167,finetuned_reasoning_safe,-224,-15,0,16,10,0.625,((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =,((3 - 2 3 3) + (-8 -1 -9 3))
+multistep_arithmetic_two,9,none,20,-15,0,16,16,1.0,((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =,((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =
+multistep_arithmetic_two,9,original_llmlingua2,20,-29,0,16,10,0.625,((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =,((-9 1 * 5 * -5) -3 -1 * -7))
+multistep_arithmetic_two,9,finetuned_llmlingua2,20,-20,1,16,10,0.625,((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =,((-9 - 1 * 5 (6 + -3 -1 =
+multistep_arithmetic_two,9,finetuned_stat_hybrid,20,(3 -2 4 -12),0,16,10,0.625,((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =,((-9 1 5 -5) (6 + -3 - -1 -7))
+multistep_arithmetic_two,9,finetuned_reasoning_safe,20,(3 -2 4 -12),0,16,10,0.625,((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =,((-9 1 5 -5) (6 + -3 - -1 -7))
+multistep_arithmetic_two,176,none,15,0,0,16,16,1.0,((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =,((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =
+multistep_arithmetic_two,176,original_llmlingua2,15,-100,0,16,10,0.625,((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =,((-3 -8 -7 + -2) (-2 8 + -1 -6))
+multistep_arithmetic_two,176,finetuned_llmlingua2,15,5,0,16,10,0.625,((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =,((-3 - -8 - -7 + 8 + -1 -
+multistep_arithmetic_two,176,finetuned_stat_hybrid,15,(-5 40 13 18),0,16,10,0.625,((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =,((-3 - -8 -7 -2) (-2 8 -1 -6)) =
+multistep_arithmetic_two,176,finetuned_reasoning_safe,15,(-5 40 13 18),0,16,10,0.625,((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =,((-3 - -8 -7 -2) (-2 8 -1 -6)) =
+multistep_arithmetic_two,197,none,1168,126,0,16,16,1.0,((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =,((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =
+multistep_arithmetic_two,197,original_llmlingua2,1168,-126,0,16,10,0.625,((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =,((-3 + 2 * -7 5) (-9 9 -9 -7))
+multistep_arithmetic_two,197,finetuned_llmlingua2,1168,-40,0,16,10,0.625,((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =,((-3 + 2 * (-9 - 9 + -7)) =
+multistep_arithmetic_two,197,finetuned_stat_hybrid,1168,"\[
+\begin{pmatrix}
+-8 \\
+-15
+\end{pmatrix}
+\]",0,16,10,0.625,((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =,((-3 + 2 -7 5) (-9 9 -9 -7)) =
+multistep_arithmetic_two,197,finetuned_reasoning_safe,1168,"\[
+\begin{pmatrix}
+-8 \\
+-45
+\end{pmatrix}
+\]",0,16,10,0.625,((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =,((-3 + 2 -7 5) (-9 9 -9 -7)) =
+multistep_arithmetic_two,113,none,76,10,0,16,16,1.0,((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =,((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =
+multistep_arithmetic_two,113,original_llmlingua2,76,-1260,0,16,10,0.625,((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =,((-9 * -5 5 + 7) (-3 8 9 *
+multistep_arithmetic_two,113,finetuned_llmlingua2,76,26,0,16,10,0.625,((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =,((-9 * -5 - + (-3 - 8 + 9
+multistep_arithmetic_two,113,finetuned_stat_hybrid,76,((-9 -5 5 7) (6 8 + 9 -2)) = (-9 -5 5 7 6 8,0,16,10,0.625,((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =,((-9 -5 5 7) (-3 8 + 9 -2)) =
+multistep_arithmetic_two,113,finetuned_reasoning_safe,76,((-9 -5 5 7) (6 8 + 9 -2)) = (-9 -5 5 7 6 8,0,16,10,0.625,((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =,((-9 -5 5 7) (-3 8 + 9 -2)) =
+multistep_arithmetic_two,3,none,-11520,-1008,0,16,16,1.0,((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =,((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =
+multistep_arithmetic_two,3,original_llmlingua2,-11520,(8 -9),0,16,10,0.625,((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =,((6 -6 8 1) (-1 7 * -6 + -2))
+multistep_arithmetic_two,3,finetuned_llmlingua2,-11520,-35,0,16,10,0.625,((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =,((6 * -6 * 8 1) 7 -6 + -2))
+multistep_arithmetic_two,3,finetuned_stat_hybrid,-11520,(8 5),0,16,10,0.625,((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =,((6 -6 8 1) (-1 7 -6 + -2)) =
+multistep_arithmetic_two,3,finetuned_reasoning_safe,-11520,(8 5),0,16,10,0.625,((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =,((6 -6 8 1) (-1 7 -6 + -2)) =
+multistep_arithmetic_two,51,none,-37,-24,0,16,16,1.0,((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =,((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =
+multistep_arithmetic_two,51,original_llmlingua2,-37,-40,0,16,10,0.625,((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =,((-3 - 8 * 5 5) (-1 -3 -2 6))
+multistep_arithmetic_two,51,finetuned_llmlingua2,-37,-42,0,16,10,0.625,((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =,((-3 - 8 * 5 + 5) -2 - =
+multistep_arithmetic_two,51,finetuned_stat_hybrid,-37,(-40),0,16,10,0.625,((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =,((-3 8 5 + 5) (-1 -3 -2 6)) =
+multistep_arithmetic_two,51,finetuned_reasoning_safe,-37,(-40),0,16,10,0.625,((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =,((-3 8 5 + 5) (-1 -3 -2 6)) =
+multistep_arithmetic_two,15,none,1608,-140,0,16,16,1.0,((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =,((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =
+multistep_arithmetic_two,15,original_llmlingua2,1608,(-15 10),0,16,10,0.625,((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =,((-5 -7 -6 + 9) (-2 8 -5 + 7))
+multistep_arithmetic_two,15,finetuned_llmlingua2,1608,-20,0,16,10,0.625,((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =,((-5 -7 -6 + (-2 - 8 + -5 7))
+multistep_arithmetic_two,15,finetuned_stat_hybrid,1608,(-130),0,16,10,0.625,((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =,((-5 -7 -6 + 9) (-2 8 -5 7)) =
+multistep_arithmetic_two,15,finetuned_reasoning_safe,1608,(-130),0,16,10,0.625,((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =,((-5 -7 -6 + 9) (-2 8 -5 7)) =
+multistep_arithmetic_two,89,none,-1300,-200,0,16,16,1.0,((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =,((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =
+multistep_arithmetic_two,89,original_llmlingua2,-1300,"(-13, 20)",0,16,10,0.625,((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =,((-9 + -4 0 -1) (4 -3 -8 - -4))
+multistep_arithmetic_two,89,finetuned_llmlingua2,-1300,-16,0,16,10,0.625,((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =,((-9 + -4 + * (4 -3 -8 - =
+multistep_arithmetic_two,89,finetuned_stat_hybrid,-1300,"(-13, 12, 72, 36)",0,16,10,0.625,((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =,((-9 + -4 0 -1) (4 -3 -8 -4)) =
+multistep_arithmetic_two,89,finetuned_reasoning_safe,-1300,"(-13, 12, 72, 36)",0,16,10,0.625,((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =,((-9 + -4 0 -1) (4 -3 -8 -4)) =
+multistep_arithmetic_two,209,none,330,-255,0,16,16,1.0,((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =,((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =
+multistep_arithmetic_two,209,original_llmlingua2,330,-120,0,16,10,0.625,((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =,((-7 * -2 -4 -4) 1 * -6 * 6))
+multistep_arithmetic_two,209,finetuned_llmlingua2,330,-100,0,16,10,0.625,((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =,((-7 * -2 + -4 (9 * 1 * -6
+multistep_arithmetic_two,209,finetuned_stat_hybrid,330,(-17 * 8) = -136,0,16,10,0.625,((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =,((-7 -2 + -4 -4) (9 1 -6 6)) =
+multistep_arithmetic_two,209,finetuned_reasoning_safe,330,(-17 * 8) = -136,0,16,10,0.625,((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =,((-7 -2 + -4 -4) (9 1 -6 6)) =
+multistep_arithmetic_two,85,none,33,-4,0,16,16,1.0,((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =,((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =
+multistep_arithmetic_two,85,original_llmlingua2,33,-15,0,16,10,0.625,((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =,((-9 + 8 - -4 2) 9 + -6 3))
+multistep_arithmetic_two,85,finetuned_llmlingua2,33,-20,0,16,10,0.625,((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =,((-9 + 8 - -4 (1 - 9 + -6
+multistep_arithmetic_two,85,finetuned_stat_hybrid,33,(0 -15 -10 5),0,16,10,0.625,((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =,((-9 8 -4 2) (1 - 9 + -6 3))
+multistep_arithmetic_two,85,finetuned_reasoning_safe,33,(0 -15 -10 5),0,16,10,0.625,((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =,((-9 8 -4 2) (1 - 9 + -6 3))
+multistep_arithmetic_two,115,none,-8,-15,0,16,16,1.0,((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =,((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =
+multistep_arithmetic_two,115,original_llmlingua2,-8,-108,0,16,10,0.625,((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =,((-1 + -6 -3 -2) (-9 -1 2 - 3))
+multistep_arithmetic_two,115,finetuned_llmlingua2,-8,0,0,16,10,0.625,((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =,((-1 + -6 + -3 * -1 + 2 =
+multistep_arithmetic_two,115,finetuned_stat_hybrid,-8,(36 -10),0,16,10,0.625,((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =,((-1 -6 -3 -2) (-9 -1 + 2 - 3))
+multistep_arithmetic_two,115,finetuned_reasoning_safe,-8,(36 -10),0,16,10,0.625,((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =,((-1 -6 -3 -2) (-9 -1 + 2 - 3))
+multistep_arithmetic_two,21,none,-35,-50,0,16,16,1.0,((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =,((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =
+multistep_arithmetic_two,21,original_llmlingua2,-35,-42,0,16,10,0.625,((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =,((8 * -6 6 * 1) (-3 7 0 7))
+multistep_arithmetic_two,21,finetuned_llmlingua2,-35,-30,0,16,10,0.625,((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =,((8 * -6 + 6 * * 7 - =
+multistep_arithmetic_two,21,finetuned_stat_hybrid,-35,-14,0,16,10,0.625,((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =,((8 -6 + 6 1) (-3 7 0 7)) =
+multistep_arithmetic_two,21,finetuned_reasoning_safe,-35,(2 7 0 7),0,16,10,0.625,((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =,((8 -6 + 6 1) (-3 7 0 7)) =
+multistep_arithmetic_two,103,none,2,-9,0,16,16,1.0,((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =,((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =
+multistep_arithmetic_two,103,original_llmlingua2,2,-3,0,16,10,0.625,((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =,((-6 1 - -4 (4 -8 - -1 - -2))
+multistep_arithmetic_two,103,finetuned_llmlingua2,2,-2,1,16,10,0.625,((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =,((-6 + 1 - -4 - -8 - -1 =
+multistep_arithmetic_two,103,finetuned_stat_hybrid,2,(-2 5 -5 -4),1,16,10,0.625,((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =,((-6 1 -4 -2) (4 - -8 - -1 -2))
+multistep_arithmetic_two,103,finetuned_reasoning_safe,2,(-2 3 -5 -4),1,16,10,0.625,((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =,((-6 1 -4 -2) (4 - -8 - -1 -2))
+multistep_arithmetic_two,105,none,12,-44,0,16,16,1.0,((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =,((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =
+multistep_arithmetic_two,105,original_llmlingua2,12,-25,0,16,10,0.625,((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =,((3 4 0 -3) + -4 + 2 * -7))
+multistep_arithmetic_two,105,finetuned_llmlingua2,12,10,0,16,10,0.625,((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =,((3 * 4 -3) (6 + + 2 -7)) =
+multistep_arithmetic_two,105,finetuned_stat_hybrid,12,(3 4 0 -3) (5 -5),0,16,10,0.625,((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =,((3 4 0 -3) (6 + -4 + 2 -7))
+multistep_arithmetic_two,105,finetuned_reasoning_safe,12,(3 4 0 -3) (5 -5),0,16,10,0.625,((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =,((3 4 0 -3) (6 + -4 + 2 -7))
+web_of_lies,44,none,Yes,No,0,26,26,1.0,Question: Millicent lies. Alexis says Millicent lies. Inga says Alexis tells the truth. Christie says Inga lies. Gwenn says Christie lies. Does Gwenn tell the truth?,Question: Millicent lies. Alexis says Millicent lies. Inga says Alexis tells the truth. Christie says Inga lies. Gwenn says Christie lies. Does Gwenn tell the truth?
+web_of_lies,44,original_llmlingua2,Yes,Yes,1,26,16,0.6153846153846154,Question: Millicent lies. Alexis says Millicent lies. Inga says Alexis tells the truth. Christie says Inga lies. Gwenn says Christie lies. Does Gwenn tell the truth?,Millicent lies. Alexis Inga says tells truth. Christie lies. Gwenn says Christie lies. Gwenn tell truth?
+web_of_lies,44,finetuned_llmlingua2,Yes,No,0,26,16,0.6153846153846154,Question: Millicent lies. Alexis says Millicent lies. Inga says Alexis tells the truth. Christie says Inga lies. Gwenn says Christie lies. Does Gwenn tell the truth?,Millicent lies. Alexis Inga says Alexis Christie says lies. Gwenn says Christie lies. Gwenn tell truth?
+web_of_lies,44,finetuned_stat_hybrid,Yes,No,0,26,16,0.6153846153846154,Question: Millicent lies. Alexis says Millicent lies. Inga says Alexis tells the truth. Christie says Inga lies. Gwenn says Christie lies. Does Gwenn tell the truth?,Millicent lies. Alexis says Inga says truth. Christie says Inga lies. Gwenn Christie Does Gwenn tell
+web_of_lies,44,finetuned_reasoning_safe,Yes,lies,0,26,16,0.6153846153846154,Question: Millicent lies. Alexis says Millicent lies. Inga says Alexis tells the truth. Christie says Inga lies. Gwenn says Christie lies. Does Gwenn tell the truth?,Millicent lies. Alexis says Inga says Christie says Inga Gwenn says Christie lies. Does Gwenn tell
+web_of_lies,98,none,No,No,1,28,28,1.0,Question: Millicent tells the truth. Alexis says Millicent lies. Jaymie says Alexis lies. Willian says Jaymie tells the truth. Leda says Willian lies. Does Leda tell the truth?,Question: Millicent tells the truth. Alexis says Millicent lies. Jaymie says Alexis lies. Willian says Jaymie tells the truth. Leda says Willian lies. Does Leda tell the truth?
+web_of_lies,98,original_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Millicent tells the truth. Alexis says Millicent lies. Jaymie says Alexis lies. Willian says Jaymie tells the truth. Leda says Willian lies. Does Leda tell the truth?,Millicent tells truth. Alexis lies. Jaymie lies. Willian says truth. Leda says Willian lies. Leda tell truth?
+web_of_lies,98,finetuned_llmlingua2,No,Yes,0,28,17,0.6071428571428571,Question: Millicent tells the truth. Alexis says Millicent lies. Jaymie says Alexis lies. Willian says Jaymie tells the truth. Leda says Willian lies. Does Leda tell the truth?,Millicent truth. Alexis lies. Jaymie says lies. Willian says Jaymie Leda says Willian lies. Leda tell truth?
+web_of_lies,98,finetuned_stat_hybrid,No,No,1,28,17,0.6071428571428571,Question: Millicent tells the truth. Alexis says Millicent lies. Jaymie says Alexis lies. Willian says Jaymie tells the truth. Leda says Willian lies. Does Leda tell the truth?,Millicent tells truth. Alexis says Jaymie says lies. Willian Jaymie Leda Willian lies. Does Leda tell truth?
+web_of_lies,98,finetuned_reasoning_safe,No,No,1,28,17,0.6071428571428571,Question: Millicent tells the truth. Alexis says Millicent lies. Jaymie says Alexis lies. Willian says Jaymie tells the truth. Leda says Willian lies. Does Leda tell the truth?,Millicent truth. Alexis Jaymie says lies. Willian says Jaymie Leda says Willian lies. Does Leda tell truth?
+web_of_lies,184,none,No,No,1,28,28,1.0,Question: Leda lies. Fidel says Leda lies. Crista says Fidel tells the truth. Ka says Crista lies. Jim says Ka tells the truth. Does Jim tell the truth?,Question: Leda lies. Fidel says Leda lies. Crista says Fidel tells the truth. Ka says Crista lies. Jim says Ka tells the truth. Does Jim tell the truth?
+web_of_lies,184,original_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Leda lies. Fidel says Leda lies. Crista says Fidel tells the truth. Ka says Crista lies. Jim says Ka tells the truth. Does Jim tell the truth?,Leda lies. Fidel Crista tells truth. Ka says lies. Jim says Ka tells truth. Jim tell truth?
+web_of_lies,184,finetuned_llmlingua2,No,Jim tells the truth.,0,28,17,0.6071428571428571,Question: Leda lies. Fidel says Leda lies. Crista says Fidel tells the truth. Ka says Crista lies. Jim says Ka tells the truth. Does Jim tell the truth?,Leda lies. Fidel says Crista says Fidel Ka says Crista lies. Jim Ka tells Jim tell truth?
+web_of_lies,184,finetuned_stat_hybrid,No,Fidel Jim,0,28,17,0.6071428571428571,Question: Leda lies. Fidel says Leda lies. Crista says Fidel tells the truth. Ka says Crista lies. Jim says Ka tells the truth. Does Jim tell the truth?,Leda lies. Fidel says Crista says Fidel tells truth. Ka says Crista Jim Ka tells Does Jim
+web_of_lies,184,finetuned_reasoning_safe,No,No,1,28,17,0.6071428571428571,Question: Leda lies. Fidel says Leda lies. Crista says Fidel tells the truth. Ka says Crista lies. Jim says Ka tells the truth. Does Jim tell the truth?,Leda lies. Fidel says Crista says Fidel Ka says Crista Jim Ka tells Does Jim tell truth?
+web_of_lies,123,none,No,No,1,28,28,1.0,Question: Bernita lies. Jerry says Bernita tells the truth. Delbert says Jerry lies. Jamey says Delbert tells the truth. Shenna says Jamey lies. Does Shenna tell the truth?,Question: Bernita lies. Jerry says Bernita tells the truth. Delbert says Jerry lies. Jamey says Delbert tells the truth. Shenna says Jamey lies. Does Shenna tell the truth?
+web_of_lies,123,original_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Bernita lies. Jerry says Bernita tells the truth. Delbert says Jerry lies. Jamey says Delbert tells the truth. Shenna says Jamey lies. Does Shenna tell the truth?,Bernita lies. Jerry tells truth. Delbert lies. Jamey tells truth. Shenna says Jamey lies. Shenna tell truth?
+web_of_lies,123,finetuned_llmlingua2,No,Yes,0,28,17,0.6071428571428571,Question: Bernita lies. Jerry says Bernita tells the truth. Delbert says Jerry lies. Jamey says Delbert tells the truth. Shenna says Jamey lies. Does Shenna tell the truth?,Bernita lies. Jerry says Delbert says lies. Jamey says Delbert Shenna says Jamey lies. Shenna tell truth?
+web_of_lies,123,finetuned_stat_hybrid,No,No,1,28,17,0.6071428571428571,Question: Bernita lies. Jerry says Bernita tells the truth. Delbert says Jerry lies. Jamey says Delbert tells the truth. Shenna says Jamey lies. Does Shenna tell the truth?,Bernita lies. Jerry says truth. Delbert says Jamey says Delbert truth. Shenna Jamey Does Shenna tell truth?
+web_of_lies,123,finetuned_reasoning_safe,No,No,1,28,17,0.6071428571428571,Question: Bernita lies. Jerry says Bernita tells the truth. Delbert says Jerry lies. Jamey says Delbert tells the truth. Shenna says Jamey lies. Does Shenna tell the truth?,Bernita lies. Jerry says Bernita Delbert says Jamey says Delbert Shenna says Jamey Does Shenna tell truth?
+web_of_lies,121,none,Yes,No,0,30,30,1.0,Question: Alejandro tells the truth. Shenna says Alejandro tells the truth. Christie says Shenna tells the truth. Shalonda says Christie lies. Jerry says Shalonda lies. Does Jerry tell the truth?,Question: Alejandro tells the truth. Shenna says Alejandro tells the truth. Christie says Shenna tells the truth. Shalonda says Christie lies. Jerry says Shalonda lies. Does Jerry tell the truth?
+web_of_lies,121,original_llmlingua2,Yes,No,0,30,18,0.6,Question: Alejandro tells the truth. Shenna says Alejandro tells the truth. Christie says Shenna tells the truth. Shalonda says Christie lies. Jerry says Shalonda lies. Does Jerry tell the truth?,Alejandro tells truth. Shenna says Christie says Shalonda says lies. Jerry says Shalonda lies. Does Jerry tell truth?
+web_of_lies,121,finetuned_llmlingua2,Yes,No,0,30,18,0.6,Question: Alejandro tells the truth. Shenna says Alejandro tells the truth. Christie says Shenna tells the truth. Shalonda says Christie lies. Jerry says Shalonda lies. Does Jerry tell the truth?,Alejandro tells truth. Shenna Christie says Shenna Shalonda says lies. Jerry says Shalonda lies. Does Jerry tell truth?
+web_of_lies,121,finetuned_stat_hybrid,Yes,No,0,30,18,0.6,Question: Alejandro tells the truth. Shenna says Alejandro tells the truth. Christie says Shenna tells the truth. Shalonda says Christie lies. Jerry says Shalonda lies. Does Jerry tell the truth?,Alejandro tells truth. Shenna Christie says Shenna Shalonda says Christie lies. Jerry Shalonda lies. Does Jerry tell truth?
+web_of_lies,121,finetuned_reasoning_safe,Yes,No,0,30,18,0.6,Question: Alejandro tells the truth. Shenna says Alejandro tells the truth. Christie says Shenna tells the truth. Shalonda says Christie lies. Jerry says Shalonda lies. Does Jerry tell the truth?,Alejandro truth. Shenna Christie says Shenna Shalonda says Christie lies. Jerry says Shalonda lies. Does Jerry tell truth?
+web_of_lies,167,none,No,No,1,28,28,1.0,Question: Shenna tells the truth. Antwan says Shenna lies. Tamika says Antwan lies. Elanor says Tamika lies. Rashida says Elanor tells the truth. Does Rashida tell the truth?,Question: Shenna tells the truth. Antwan says Shenna lies. Tamika says Antwan lies. Elanor says Tamika lies. Rashida says Elanor tells the truth. Does Rashida tell the truth?
+web_of_lies,167,original_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Shenna tells the truth. Antwan says Shenna lies. Tamika says Antwan lies. Elanor says Tamika lies. Rashida says Elanor tells the truth. Does Rashida tell the truth?,Shenna tells truth. Antwan lies. Tamika lies. Elanor lies. Rashida says Elanor tells truth. Rashida tell truth?
+web_of_lies,167,finetuned_llmlingua2,No,Yes,0,28,17,0.6071428571428571,Question: Shenna tells the truth. Antwan says Shenna lies. Tamika says Antwan lies. Elanor says Tamika lies. Rashida says Elanor tells the truth. Does Rashida tell the truth?,Shenna truth. Antwan lies. Tamika says Elanor says lies. Rashida says Elanor truth. Does Rashida tell truth?
+web_of_lies,167,finetuned_stat_hybrid,No,No,1,28,17,0.6071428571428571,Question: Shenna tells the truth. Antwan says Shenna lies. Tamika says Antwan lies. Elanor says Tamika lies. Rashida says Elanor tells the truth. Does Rashida tell the truth?,Shenna tells truth. Antwan says lies. Tamika says Antwan Elanor Tamika Rashida Elanor Does Rashida tell truth?
+web_of_lies,167,finetuned_reasoning_safe,No,No,1,28,17,0.6071428571428571,Question: Shenna tells the truth. Antwan says Shenna lies. Tamika says Antwan lies. Elanor says Tamika lies. Rashida says Elanor tells the truth. Does Rashida tell the truth?,Shenna truth. Antwan lies. Tamika says Antwan Elanor says Tamika lies. Rashida Elanor Does Rashida tell truth?
+web_of_lies,9,none,No,No,1,28,28,1.0,Question: Rashida tells the truth. Jim says Rashida lies. Alejandro says Jim lies. Tamika says Alejandro tells the truth. Fidel says Tamika lies. Does Fidel tell the truth?,Question: Rashida tells the truth. Jim says Rashida lies. Alejandro says Jim lies. Tamika says Alejandro tells the truth. Fidel says Tamika lies. Does Fidel tell the truth?
+web_of_lies,9,original_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Rashida tells the truth. Jim says Rashida lies. Alejandro says Jim lies. Tamika says Alejandro tells the truth. Fidel says Tamika lies. Does Fidel tell the truth?,Rashida truth. Jim lies. Alejandro lies. Tamika says Alejandro truth. Fidel says Tamika lies. Fidel tell truth?
+web_of_lies,9,finetuned_llmlingua2,No,Yes,0,28,17,0.6071428571428571,Question: Rashida tells the truth. Jim says Rashida lies. Alejandro says Jim lies. Tamika says Alejandro tells the truth. Fidel says Tamika lies. Does Fidel tell the truth?,Rashida truth. Jim says lies. Alejandro says lies. Tamika says Fidel says Tamika lies. Fidel tell truth?
+web_of_lies,9,finetuned_stat_hybrid,No,No,1,28,17,0.6071428571428571,Question: Rashida tells the truth. Jim says Rashida lies. Alejandro says Jim lies. Tamika says Alejandro tells the truth. Fidel says Tamika lies. Does Fidel tell the truth?,Rashida truth. Jim says lies. Alejandro says Tamika says truth. Fidel says Tamika lies. Fidel tell truth?
+web_of_lies,9,finetuned_reasoning_safe,No,No,1,28,17,0.6071428571428571,Question: Rashida tells the truth. Jim says Rashida lies. Alejandro says Jim lies. Tamika says Alejandro tells the truth. Fidel says Tamika lies. Does Fidel tell the truth?,Rashida truth. Jim says lies. Alejandro says Tamika says truth. Fidel says Tamika lies. Fidel tell truth?
+web_of_lies,176,none,No,Yes,0,28,28,1.0,Question: Vernell tells the truth. Fidel says Vernell tells the truth. Amberly says Fidel lies. Lorine says Amberly lies. Elanor says Lorine lies. Does Elanor tell the truth?,Question: Vernell tells the truth. Fidel says Vernell tells the truth. Amberly says Fidel lies. Lorine says Amberly lies. Elanor says Lorine lies. Does Elanor tell the truth?
+web_of_lies,176,original_llmlingua2,No,Yes,0,28,17,0.6071428571428571,Question: Vernell tells the truth. Fidel says Vernell tells the truth. Amberly says Fidel lies. Lorine says Amberly lies. Elanor says Lorine lies. Does Elanor tell the truth?,Vernell truth. Fidel says Amberly says lies. Lorine says lies. Elanor says Lorine lies. Elanor tell truth?
+web_of_lies,176,finetuned_llmlingua2,No,Yes,0,28,17,0.6071428571428571,Question: Vernell tells the truth. Fidel says Vernell tells the truth. Amberly says Fidel lies. Lorine says Amberly lies. Elanor says Lorine lies. Does Elanor tell the truth?,Vernell truth. Fidel says Amberly says lies. Lorine says lies. Elanor says Lorine lies. Elanor tell truth?
+web_of_lies,176,finetuned_stat_hybrid,No,No,1,28,17,0.6071428571428571,Question: Vernell tells the truth. Fidel says Vernell tells the truth. Amberly says Fidel lies. Lorine says Amberly lies. Elanor says Lorine lies. Does Elanor tell the truth?,Vernell tells truth. Fidel says Vernell Amberly says lies. Lorine Elanor Lorine lies. Does Elanor tell truth?
+web_of_lies,176,finetuned_reasoning_safe,No,Yes,0,28,17,0.6071428571428571,Question: Vernell tells the truth. Fidel says Vernell tells the truth. Amberly says Fidel lies. Lorine says Amberly lies. Elanor says Lorine lies. Does Elanor tell the truth?,Vernell Fidel says Vernell Amberly says lies. Lorine says Amberly Elanor says Lorine lies. Elanor tell truth?
+web_of_lies,197,none,No,No,1,32,32,1.0,Question: Shaunda tells the truth. Fidel says Shaunda tells the truth. Delbert says Fidel tells the truth. Bernita says Delbert tells the truth. Lorine says Bernita lies. Does Lorine tell the truth?,Question: Shaunda tells the truth. Fidel says Shaunda tells the truth. Delbert says Fidel tells the truth. Bernita says Delbert tells the truth. Lorine says Bernita lies. Does Lorine tell the truth?
+web_of_lies,197,original_llmlingua2,No,No,1,32,19,0.59375,Question: Shaunda tells the truth. Fidel says Shaunda tells the truth. Delbert says Fidel tells the truth. Bernita says Delbert tells the truth. Lorine says Bernita lies. Does Lorine tell the truth?,Question: Shaunda tells truth. Fidel says Delbert says Bernita says Delbert Lorine says Bernita lies. Does Lorine tell truth?
+web_of_lies,197,finetuned_llmlingua2,No,No,1,32,19,0.59375,Question: Shaunda tells the truth. Fidel says Shaunda tells the truth. Delbert says Fidel tells the truth. Bernita says Delbert tells the truth. Lorine says Bernita lies. Does Lorine tell the truth?,Shaunda tells truth. Fidel says Delbert says Fidel Bernita says Delbert Lorine says Bernita lies. Does Lorine tell truth?
+web_of_lies,197,finetuned_stat_hybrid,No,No,1,32,19,0.59375,Question: Shaunda tells the truth. Fidel says Shaunda tells the truth. Delbert says Fidel tells the truth. Bernita says Delbert tells the truth. Lorine says Bernita lies. Does Lorine tell the truth?,Shaunda tells truth. Fidel says Shaunda Delbert says Fidel Bernita says Delbert Lorine Bernita lies. Does Lorine tell truth?
+web_of_lies,197,finetuned_reasoning_safe,No,No,1,32,19,0.59375,Question: Shaunda tells the truth. Fidel says Shaunda tells the truth. Delbert says Fidel tells the truth. Bernita says Delbert tells the truth. Lorine says Bernita lies. Does Lorine tell the truth?,Shaunda tells Fidel says Shaunda Delbert says Fidel Bernita says Delbert Lorine says Bernita lies. Does Lorine tell truth?
+web_of_lies,113,none,No,No,1,28,28,1.0,Question: Jim tells the truth. Alejandro says Jim lies. Phoebe says Alejandro lies. Shaunda says Phoebe tells the truth. Kandi says Shaunda lies. Does Kandi tell the truth?,Question: Jim tells the truth. Alejandro says Jim lies. Phoebe says Alejandro lies. Shaunda says Phoebe tells the truth. Kandi says Shaunda lies. Does Kandi tell the truth?
+web_of_lies,113,original_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Jim tells the truth. Alejandro says Jim lies. Phoebe says Alejandro lies. Shaunda says Phoebe tells the truth. Kandi says Shaunda lies. Does Kandi tell the truth?,Jim truth. Alejandro lies. Phoebe says lies. Shaunda says truth. Kandi says Shaunda lies. Kandi tell truth?
+web_of_lies,113,finetuned_llmlingua2,No,Yes,0,28,17,0.6071428571428571,Question: Jim tells the truth. Alejandro says Jim lies. Phoebe says Alejandro lies. Shaunda says Phoebe tells the truth. Kandi says Shaunda lies. Does Kandi tell the truth?,Jim truth. Alejandro says lies. Phoebe lies. Shaunda Phoebe truth. Kandi says Shaunda lies. Kandi tell truth?
+web_of_lies,113,finetuned_stat_hybrid,No,No,1,28,17,0.6071428571428571,Question: Jim tells the truth. Alejandro says Jim lies. Phoebe says Alejandro lies. Shaunda says Phoebe tells the truth. Kandi says Shaunda lies. Does Kandi tell the truth?,Jim truth. Alejandro says lies. Phoebe says lies. Shaunda Phoebe truth. Kandi Shaunda lies. Kandi tell truth?
+web_of_lies,113,finetuned_reasoning_safe,No,No,1,28,17,0.6071428571428571,Question: Jim tells the truth. Alejandro says Jim lies. Phoebe says Alejandro lies. Shaunda says Phoebe tells the truth. Kandi says Shaunda lies. Does Kandi tell the truth?,Jim truth. Alejandro says Phoebe says lies. Shaunda Phoebe truth. Kandi says Shaunda lies. Kandi tell truth?
+web_of_lies,3,none,No,Yes,0,32,32,1.0,Question: Christie tells the truth. Ka says Christie tells the truth. Delbert says Ka lies. Leda says Delbert tells the truth. Lorine says Leda tells the truth. Does Lorine tell the truth?,Question: Christie tells the truth. Ka says Christie tells the truth. Delbert says Ka lies. Leda says Delbert tells the truth. Lorine says Leda tells the truth. Does Lorine tell the truth?
+web_of_lies,3,original_llmlingua2,No,No,1,32,19,0.59375,Question: Christie tells the truth. Ka says Christie tells the truth. Delbert says Ka lies. Leda says Delbert tells the truth. Lorine says Leda tells the truth. Does Lorine tell the truth?,Christie tells truth. Ka says Delbert says lies. Leda says Lorine says Leda tells truth. Does Lorine tell truth?
+web_of_lies,3,finetuned_llmlingua2,No,No,1,32,19,0.59375,Question: Christie tells the truth. Ka says Christie tells the truth. Delbert says Ka lies. Leda says Delbert tells the truth. Lorine says Leda tells the truth. Does Lorine tell the truth?,Christie tells truth. Ka says Delbert says Leda says Delbert Lorine says Leda tells truth. Does Lorine tell truth?
+web_of_lies,3,finetuned_stat_hybrid,No,No,1,32,19,0.59375,Question: Christie tells the truth. Ka says Christie tells the truth. Delbert says Ka lies. Leda says Delbert tells the truth. Lorine says Leda tells the truth. Does Lorine tell the truth?,Christie tells truth. Ka says Christie Delbert says Ka Leda says Delbert Lorine Leda tells Does Lorine tell truth?
+web_of_lies,3,finetuned_reasoning_safe,No,No,1,32,19,0.59375,Question: Christie tells the truth. Ka says Christie tells the truth. Delbert says Ka lies. Leda says Delbert tells the truth. Lorine says Leda tells the truth. Does Lorine tell the truth?,Christie tells Ka says Christie Delbert says Ka Leda says Delbert Lorine says Leda tells Does Lorine tell truth?
+web_of_lies,51,none,No,No,1,28,28,1.0,Question: Elanor tells the truth. Ka says Elanor lies. Delbert says Ka tells the truth. Michaela says Delbert lies. Sherrie says Michaela lies. Does Sherrie tell the truth?,Question: Elanor tells the truth. Ka says Elanor lies. Delbert says Ka tells the truth. Michaela says Delbert lies. Sherrie says Michaela lies. Does Sherrie tell the truth?
+web_of_lies,51,original_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Elanor tells the truth. Ka says Elanor lies. Delbert says Ka tells the truth. Michaela says Delbert lies. Sherrie says Michaela lies. Does Sherrie tell the truth?,Elanor tells truth. Ka lies. Delbert says truth. Michaela says lies. Sherrie says lies. Sherrie tell truth?
+web_of_lies,51,finetuned_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Elanor tells the truth. Ka says Elanor lies. Delbert says Ka tells the truth. Michaela says Delbert lies. Sherrie says Michaela lies. Does Sherrie tell the truth?,Elanor tells truth. Ka says lies. Delbert Michaela says Delbert lies. Sherrie says lies. Sherrie tell truth?
+web_of_lies,51,finetuned_stat_hybrid,No,No,1,28,17,0.6071428571428571,Question: Elanor tells the truth. Ka says Elanor lies. Delbert says Ka tells the truth. Michaela says Delbert lies. Sherrie says Michaela lies. Does Sherrie tell the truth?,Elanor tells truth. Ka says lies. Delbert Ka Michaela Delbert lies. Sherrie Michaela Does Sherrie tell truth?
+web_of_lies,51,finetuned_reasoning_safe,No,No,1,28,17,0.6071428571428571,Question: Elanor tells the truth. Ka says Elanor lies. Delbert says Ka tells the truth. Michaela says Delbert lies. Sherrie says Michaela lies. Does Sherrie tell the truth?,Elanor tells truth. Ka says lies. Delbert Ka Michaela Delbert lies. Sherrie Michaela lies. Sherrie tell truth?
+web_of_lies,15,none,Yes,No,0,30,30,1.0,Question: Willian lies. Inga says Willian tells the truth. Fidel says Inga lies. Gwenn says Fidel tells the truth. Crista says Gwenn tells the truth. Does Crista tell the truth?,Question: Willian lies. Inga says Willian tells the truth. Fidel says Inga lies. Gwenn says Fidel tells the truth. Crista says Gwenn tells the truth. Does Crista tell the truth?
+web_of_lies,15,original_llmlingua2,Yes,No,0,30,18,0.6,Question: Willian lies. Inga says Willian tells the truth. Fidel says Inga lies. Gwenn says Fidel tells the truth. Crista says Gwenn tells the truth. Does Crista tell the truth?,Willian lies. Inga truth. Fidel lies. Gwenn Fidel tells truth. Crista says Gwenn tells truth. Crista tell truth?
+web_of_lies,15,finetuned_llmlingua2,Yes,No,0,30,18,0.6,Question: Willian lies. Inga says Willian tells the truth. Fidel says Inga lies. Gwenn says Fidel tells the truth. Crista says Gwenn tells the truth. Does Crista tell the truth?,Willian lies. Inga says Fidel says Inga lies. Gwenn says Fidel Crista says Gwenn Does Crista tell truth?
+web_of_lies,15,finetuned_stat_hybrid,Yes,No,0,30,18,0.6,Question: Willian lies. Inga says Willian tells the truth. Fidel says Inga lies. Gwenn says Fidel tells the truth. Crista says Gwenn tells the truth. Does Crista tell the truth?,Willian lies. Inga says Willian truth. Fidel says Inga Gwenn Fidel tells truth. Crista Gwenn Does Crista tell
+web_of_lies,15,finetuned_reasoning_safe,Yes,Yes,1,30,18,0.6,Question: Willian lies. Inga says Willian tells the truth. Fidel says Inga lies. Gwenn says Fidel tells the truth. Crista says Gwenn tells the truth. Does Crista tell the truth?,Willian lies. Inga says Willian Fidel says Inga Gwenn says Fidel Crista says Gwenn Does Crista tell truth?
+web_of_lies,89,none,Yes,No,0,26,26,1.0,Question: Ryan lies. Kandi says Ryan lies. Lorine says Kandi lies. Christie says Lorine tells the truth. Fletcher says Christie lies. Does Fletcher tell the truth?,Question: Ryan lies. Kandi says Ryan lies. Lorine says Kandi lies. Christie says Lorine tells the truth. Fletcher says Christie lies. Does Fletcher tell the truth?
+web_of_lies,89,original_llmlingua2,Yes,No,0,26,16,0.6153846153846154,Question: Ryan lies. Kandi says Ryan lies. Lorine says Kandi lies. Christie says Lorine tells the truth. Fletcher says Christie lies. Does Fletcher tell the truth?,Ryan lies. Kandi Lorine says Christie says tells truth. Fletcher says lies. Does Fletcher tell truth?
+web_of_lies,89,finetuned_llmlingua2,Yes,No,0,26,16,0.6153846153846154,Question: Ryan lies. Kandi says Ryan lies. Lorine says Kandi lies. Christie says Lorine tells the truth. Fletcher says Christie lies. Does Fletcher tell the truth?,Ryan lies. Kandi says Lorine says Christie says Fletcher says Christie lies. Does Fletcher tell truth?
+web_of_lies,89,finetuned_stat_hybrid,Yes,No,0,26,16,0.6153846153846154,Question: Ryan lies. Kandi says Ryan lies. Lorine says Kandi lies. Christie says Lorine tells the truth. Fletcher says Christie lies. Does Fletcher tell the truth?,Ryan lies. Kandi says Lorine says Kandi Christie Lorine truth. Fletcher Christie Does Fletcher tell truth?
+web_of_lies,89,finetuned_reasoning_safe,Yes,No,0,26,16,0.6153846153846154,Question: Ryan lies. Kandi says Ryan lies. Lorine says Kandi lies. Christie says Lorine tells the truth. Fletcher says Christie lies. Does Fletcher tell the truth?,Ryan lies. Kandi says Lorine says Kandi Christie Lorine Fletcher Christie lies. Does Fletcher tell truth?
+web_of_lies,209,none,No,No,1,28,28,1.0,Question: Fidel lies. Millicent says Fidel tells the truth. Crista says Millicent lies. Leda says Crista lies. Tamika says Leda tells the truth. Does Tamika tell the truth?,Question: Fidel lies. Millicent says Fidel tells the truth. Crista says Millicent lies. Leda says Crista lies. Tamika says Leda tells the truth. Does Tamika tell the truth?
+web_of_lies,209,original_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Fidel lies. Millicent says Fidel tells the truth. Crista says Millicent lies. Leda says Crista lies. Tamika says Leda tells the truth. Does Tamika tell the truth?,Fidel lies. Millicent tells truth. Crista lies. Leda lies. Tamika says Leda tells truth. Tamika tell truth?
+web_of_lies,209,finetuned_llmlingua2,No,No,1,28,17,0.6071428571428571,Question: Fidel lies. Millicent says Fidel tells the truth. Crista says Millicent lies. Leda says Crista lies. Tamika says Leda tells the truth. Does Tamika tell the truth?,Fidel lies. Millicent Crista says Leda says Crista lies. Tamika says Leda tells Does Tamika tell truth?
+web_of_lies,209,finetuned_stat_hybrid,No,No,1,28,17,0.6071428571428571,Question: Fidel lies. Millicent says Fidel tells the truth. Crista says Millicent lies. Leda says Crista lies. Tamika says Leda tells the truth. Does Tamika tell the truth?,Fidel lies. Millicent says Fidel tells truth. Crista says Leda Crista Tamika Leda tells Does Tamika tell
+web_of_lies,209,finetuned_reasoning_safe,No,No,1,28,17,0.6071428571428571,Question: Fidel lies. Millicent says Fidel tells the truth. Crista says Millicent lies. Leda says Crista lies. Tamika says Leda tells the truth. Does Tamika tell the truth?,Fidel lies. Millicent says Fidel Crista says Leda says Crista Tamika Leda tells Does Tamika tell truth?
+web_of_lies,85,none,Yes,No,0,30,30,1.0,Question: Bernita tells the truth. Audrie says Bernita lies. Delfina says Audrie tells the truth. Vina says Delfina lies. Sal says Vina tells the truth. Does Sal tell the truth?,Question: Bernita tells the truth. Audrie says Bernita lies. Delfina says Audrie tells the truth. Vina says Delfina lies. Sal says Vina tells the truth. Does Sal tell the truth?
+web_of_lies,85,original_llmlingua2,Yes,No,0,30,18,0.6,Question: Bernita tells the truth. Audrie says Bernita lies. Delfina says Audrie tells the truth. Vina says Delfina lies. Sal says Vina tells the truth. Does Sal tell the truth?,Bernita tells truth. Audrie lies. Delfina truth. Vina lies. Sal says Vina tells truth. Does Sal tell truth?
+web_of_lies,85,finetuned_llmlingua2,Yes,Yes,1,30,18,0.6,Question: Bernita tells the truth. Audrie says Bernita lies. Delfina says Audrie tells the truth. Vina says Delfina lies. Sal says Vina tells the truth. Does Sal tell the truth?,Bernita truth. Audrie lies. Delfina says Audrie Vina says lies. Sal says Vina tells truth. Sal tell truth?
+web_of_lies,85,finetuned_stat_hybrid,Yes,No,0,30,18,0.6,Question: Bernita tells the truth. Audrie says Bernita lies. Delfina says Audrie tells the truth. Vina says Delfina lies. Sal says Vina tells the truth. Does Sal tell the truth?,Bernita tells truth. Audrie says lies. Delfina says Audrie Vina Delfina lies. Sal Vina Does Sal tell truth?
+web_of_lies,85,finetuned_reasoning_safe,Yes,False,0,30,18,0.6,Question: Bernita tells the truth. Audrie says Bernita lies. Delfina says Audrie tells the truth. Vina says Delfina lies. Sal says Vina tells the truth. Does Sal tell the truth?,Bernita truth. Audrie lies. Delfina says Audrie Vina says Delfina lies. Sal says Vina tells Sal tell truth?
+web_of_lies,115,none,No,No,1,32,32,1.0,Question: Yoland tells the truth. Michaela says Yoland tells the truth. Sima says Michaela tells the truth. Shaunda says Sima tells the truth. Osvaldo says Shaunda lies. Does Osvaldo tell the truth?,Question: Yoland tells the truth. Michaela says Yoland tells the truth. Sima says Michaela tells the truth. Shaunda says Sima tells the truth. Osvaldo says Shaunda lies. Does Osvaldo tell the truth?
+web_of_lies,115,original_llmlingua2,No,No,1,32,19,0.59375,Question: Yoland tells the truth. Michaela says Yoland tells the truth. Sima says Michaela tells the truth. Shaunda says Sima tells the truth. Osvaldo says Shaunda lies. Does Osvaldo tell the truth?,Question: Yoland tells truth. Michaela says Sima says Shaunda says Sima Osvaldo says Shaunda lies. Does Osvaldo tell truth?
+web_of_lies,115,finetuned_llmlingua2,No,No,1,32,19,0.59375,Question: Yoland tells the truth. Michaela says Yoland tells the truth. Sima says Michaela tells the truth. Shaunda says Sima tells the truth. Osvaldo says Shaunda lies. Does Osvaldo tell the truth?,Question: Yoland tells truth. Michaela says Sima says Shaunda says Sima Osvaldo says Shaunda lies. Does Osvaldo tell truth?
+web_of_lies,115,finetuned_stat_hybrid,No,No,1,32,19,0.59375,Question: Yoland tells the truth. Michaela says Yoland tells the truth. Sima says Michaela tells the truth. Shaunda says Sima tells the truth. Osvaldo says Shaunda lies. Does Osvaldo tell the truth?,Yoland tells truth. Michaela says Yoland Sima says Michaela Shaunda says Sima Osvaldo Shaunda lies. Does Osvaldo tell truth?
+web_of_lies,115,finetuned_reasoning_safe,No,No,1,32,19,0.59375,Question: Yoland tells the truth. Michaela says Yoland tells the truth. Sima says Michaela tells the truth. Shaunda says Sima tells the truth. Osvaldo says Shaunda lies. Does Osvaldo tell the truth?,Yoland tells truth. Michaela Yoland Sima says Michaela Shaunda says Sima Osvaldo says Shaunda lies. Does Osvaldo tell truth?
+web_of_lies,21,none,Yes,Yes,1,34,34,1.0,Question: Ryan tells the truth. Sal says Ryan tells the truth. Leda says Sal tells the truth. Rashida says Leda tells the truth. Alejandro says Rashida tells the truth. Does Alejandro tell the truth?,Question: Ryan tells the truth. Sal says Ryan tells the truth. Leda says Sal tells the truth. Rashida says Leda tells the truth. Alejandro says Rashida tells the truth. Does Alejandro tell the truth?
+web_of_lies,21,original_llmlingua2,Yes,No,0,34,20,0.5882352941176471,Question: Ryan tells the truth. Sal says Ryan tells the truth. Leda says Sal tells the truth. Rashida says Leda tells the truth. Alejandro says Rashida tells the truth. Does Alejandro tell the truth?,Question: Ryan tells truth. Sal says Leda says Rashida says Leda Alejandro says Rashida tells truth. Does Alejandro tell truth?
+web_of_lies,21,finetuned_llmlingua2,Yes,Yes,1,34,20,0.5882352941176471,Question: Ryan tells the truth. Sal says Ryan tells the truth. Leda says Sal tells the truth. Rashida says Leda tells the truth. Alejandro says Rashida tells the truth. Does Alejandro tell the truth?,Question: Ryan tells Sal says Leda says Sal Rashida says Leda Alejandro says Rashida tells truth. Does Alejandro tell truth?
+web_of_lies,21,finetuned_stat_hybrid,Yes,No,0,34,20,0.5882352941176471,Question: Ryan tells the truth. Sal says Ryan tells the truth. Leda says Sal tells the truth. Rashida says Leda tells the truth. Alejandro says Rashida tells the truth. Does Alejandro tell the truth?,Question: Ryan tells truth. Sal says Ryan Leda says Sal Rashida says Leda Alejandro says Rashida Does Alejandro tell truth?
+web_of_lies,21,finetuned_reasoning_safe,Yes,Yes,1,34,20,0.5882352941176471,Question: Ryan tells the truth. Sal says Ryan tells the truth. Leda says Sal tells the truth. Rashida says Leda tells the truth. Alejandro says Rashida tells the truth. Does Alejandro tell the truth?,Ryan tells Sal says Ryan Leda says Sal Rashida says Leda Alejandro says Rashida tells truth. Does Alejandro tell truth?
+web_of_lies,103,none,No,No,1,24,24,1.0,Question: Andree lies. Jamey says Andree lies. Shaunda says Jamey lies. Delfina says Shaunda lies. Christie says Delfina lies. Does Christie tell the truth?,Question: Andree lies. Jamey says Andree lies. Shaunda says Jamey lies. Delfina says Shaunda lies. Christie says Delfina lies. Does Christie tell the truth?
+web_of_lies,103,original_llmlingua2,No,No,1,24,14,0.5833333333333334,Question: Andree lies. Jamey says Andree lies. Shaunda says Jamey lies. Delfina says Shaunda lies. Christie says Delfina lies. Does Christie tell the truth?,Andree lies. Jamey Shaunda says Delfina says Christie says Delfina lies. Christie tell truth?
+web_of_lies,103,finetuned_llmlingua2,No,No,1,24,14,0.5833333333333334,Question: Andree lies. Jamey says Andree lies. Shaunda says Jamey lies. Delfina says Shaunda lies. Christie says Delfina lies. Does Christie tell the truth?,Andree lies. Jamey Shaunda Delfina says Christie says Delfina lies. Does Christie tell truth?
+web_of_lies,103,finetuned_stat_hybrid,No,No,1,24,14,0.5833333333333334,Question: Andree lies. Jamey says Andree lies. Shaunda says Jamey lies. Delfina says Shaunda lies. Christie says Delfina lies. Does Christie tell the truth?,Andree lies. Jamey says Shaunda says Delfina Shaunda Christie Delfina Does Christie tell truth?
+web_of_lies,103,finetuned_reasoning_safe,No,No,1,24,14,0.5833333333333334,Question: Andree lies. Jamey says Andree lies. Shaunda says Jamey lies. Delfina says Shaunda lies. Christie says Delfina lies. Does Christie tell the truth?,Andree lies. Jamey Shaunda Delfina says Shaunda Christie Delfina lies. Does Christie tell truth?
+web_of_lies,105,none,No,No,1,32,32,1.0,Question: Conception tells the truth. Elanor says Conception tells the truth. Alexis says Elanor tells the truth. Fidel says Alexis tells the truth. Delbert says Fidel lies. Does Delbert tell the truth?,Question: Conception tells the truth. Elanor says Conception tells the truth. Alexis says Elanor tells the truth. Fidel says Alexis tells the truth. Delbert says Fidel lies. Does Delbert tell the truth?
+web_of_lies,105,original_llmlingua2,No,No,1,32,19,0.59375,Question: Conception tells the truth. Elanor says Conception tells the truth. Alexis says Elanor tells the truth. Fidel says Alexis tells the truth. Delbert says Fidel lies. Does Delbert tell the truth?,Question: Conception tells truth. Elanor Alexis says Fidel says Alexis truth. Delbert says Fidel lies. Does Delbert tell truth?
+web_of_lies,105,finetuned_llmlingua2,No,No,1,32,19,0.59375,Question: Conception tells the truth. Elanor says Conception tells the truth. Alexis says Elanor tells the truth. Fidel says Alexis tells the truth. Delbert says Fidel lies. Does Delbert tell the truth?,Question: Conception tells truth. Elanor says Alexis says Fidel says Alexis Delbert says Fidel lies. Does Delbert tell truth?
+web_of_lies,105,finetuned_stat_hybrid,No,No,1,32,19,0.59375,Question: Conception tells the truth. Elanor says Conception tells the truth. Alexis says Elanor tells the truth. Fidel says Alexis tells the truth. Delbert says Fidel lies. Does Delbert tell the truth?,Conception tells truth. Elanor says Alexis says Elanor Fidel says Alexis Delbert says Fidel lies. Does Delbert tell truth?
+web_of_lies,105,finetuned_reasoning_safe,No,No,1,32,19,0.59375,Question: Conception tells the truth. Elanor says Conception tells the truth. Alexis says Elanor tells the truth. Fidel says Alexis tells the truth. Delbert says Fidel lies. Does Delbert tell the truth?,Conception tells truth. Elanor says Alexis says Elanor Fidel says Alexis Delbert says Fidel lies. Does Delbert tell truth?

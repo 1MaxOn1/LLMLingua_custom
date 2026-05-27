@@ -1,0 +1,238 @@
+task,idx,method,target,prediction,correct,original_words,compressed_words,keep_ratio_actual,question,compressed_question
+boolean_expressions,44,none,True,True,1,9,9,1.0,True or True or not False or False is,True or True or not False or False is
+boolean_expressions,44,every_second_word,True,False,0,9,5,0.5555555555555556,True or True or not False or False is,True True not or is
+boolean_expressions,44,random_keep,True,False,0,9,5,0.5555555555555556,True or True or not False or False is,True False or False is
+boolean_expressions,44,model_keep_ratio,True,True,1,9,5,0.5555555555555556,True or True or not False or False is,True or not False is
+boolean_expressions,44,stat_hybrid,True,True,1,9,5,0.5555555555555556,True or True or not False or False is,True or not False is
+boolean_expressions,98,none,True,True,1,9,9,1.0,True or ( True or not True ) is,True or ( True or not True ) is
+boolean_expressions,98,every_second_word,True,True,1,9,5,0.5555555555555556,True or ( True or not True ) is,True ( or True is
+boolean_expressions,98,random_keep,True,or,0,9,5,0.5555555555555556,True or ( True or not True ) is,True or ( or )
+boolean_expressions,98,model_keep_ratio,True,Not,0,9,5,0.5555555555555556,True or ( True or not True ) is,True or not ) is
+boolean_expressions,98,stat_hybrid,True,Not,0,9,5,0.5555555555555556,True or ( True or not True ) is,True or not ) is
+boolean_expressions,184,none,False,False,1,9,9,1.0,not ( not not True ) or False is,not ( not not True ) or False is
+boolean_expressions,184,every_second_word,False,True,0,9,5,0.5555555555555556,not ( not not True ) or False is,not not True or is
+boolean_expressions,184,random_keep,False,True,0,9,5,0.5555555555555556,not ( not not True ) or False is,not True ) or False
+boolean_expressions,184,model_keep_ratio,False,True,0,9,5,0.5555555555555556,not ( not not True ) or False is,not True ) or False
+boolean_expressions,184,stat_hybrid,False,not True or False is False,1,9,5,0.5555555555555556,not ( not not True ) or False is,not True or False is
+date_understanding,44,none,(D),(D),1,32,32,1.0,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996"
+date_understanding,44,every_second_word,(D),C,0,32,16,0.5,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, is day we never What the one ago today MM/DD/YYYY? (A) (B) (C) (D) (E)"
+date_understanding,44,random_keep,(D),08/03/1996,0,32,19,0.59375,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, 8/3/1997, is a will forget. What the date ago from today MM/DD/YYYY? (A) 10/07/1996 (B) (C) 05/03/1997 08/03/1996"
+date_understanding,44,model_keep_ratio,(D),08/03/1996,0,32,19,0.59375,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, 8/3/1997, we will never forget. date one year ago MM/DD/YYYY? Options: 10/07/1996 08/03/2035 05/03/1997 (D) 08/03/1996 (E) 08/04/1996"
+date_understanding,44,stat_hybrid,(D),08/03/1996,0,32,19,0.59375,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996","Today, 8/3/1997, day we will never forget. date one year ago MM/DD/YYYY? Options: 10/07/1996 08/03/2035 05/03/1997 08/03/1996 (E) 08/04/1996"
+date_understanding,98,none,(B),(B) 02/18/2017,1,38,38,1.0,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017","Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017"
+date_understanding,98,every_second_word,(B),(C),0,38,19,0.5,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",Jane born the day Feburary 2001. is 16-year-old What the 10 ago MM/DD/YYYY? (A) (B) (C) (D) (E) (F)
+date_understanding,98,random_keep,(B),02/18/2017,0,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",Jane was on last day of in is her 16-year-old What is date 10 ago in (A) 02/28/2017 02/18/2017 (D) (E) (F) 03/04/2017
+date_understanding,98,model_keep_ratio,(B),02/18/2017,0,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",Jane born Feburary 2001. Today 16-year-old birthday. date 10 days ago MM/DD/YYYY? Options: 02/28/2017 (B) 02/18/2017 03/18/2017 (D) 02/13/2017 (E) 02/25/2017 (F) 03/04/2017
+date_understanding,98,stat_hybrid,(B),02/28/2017,0,38,23,0.6052631578947368,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",Jane born last day Feburary 2001. Today 16-year-old birthday. date 10 days ago MM/DD/YYYY? Options: 02/28/2017 02/18/2017 03/18/2017 (D) 02/13/2017 02/25/2017 (F) 03/04/2017
+date_understanding,184,none,(D),(D),1,38,38,1.0,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936"
+date_understanding,184,every_second_word,(D),None,0,38,19,0.5,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane John on 2, It their anniversary What the one ago today MM/DD/YYYY? (A) (B) (C) (D) (E) (F)"
+date_understanding,184,random_keep,(D),12/26/1960,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936",Jane John married Jan 5-year anniversary What the date week ago from today in Options: (A) (B) (C) (D) 12/26/1960 07/26/1960 (F) 12/26/1936
+date_understanding,184,model_keep_ratio,(D),12/26/1960,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane and John married Jan 2, 1958. 5-year anniversary today. date one week ago MM/DD/YYYY? Options: 01/09/1961 01/02/1961 10/01/1960 12/26/1960 07/26/1960 (F) 12/26/1936"
+date_understanding,184,stat_hybrid,(D),01/02/1961,0,38,23,0.6052631578947368,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 01/09/1961
+(B) 01/02/1961
+(C) 10/01/1960
+(D) 12/26/1960
+(E) 07/26/1960
+(F) 12/26/1936","Jane and John married Jan 2, 1958. 5-year anniversary today. date one week ago today MM/DD/YYYY? Options: 01/09/1961 01/02/1961 10/01/1960 12/26/1960 07/26/1960 12/26/1936"
+logical_deduction_three_objects,44,none,(C),B,0,71,71,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive"
+logical_deduction_three_objects,44,every_second_word,(C),mangoes,0,71,36,0.5070422535211268,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","The paragraphs describe set three arranged a order. statements logically within paragraph. fruit sells fruits: mangoes, plums. plums less than mangoes. oranges less than plums. (A) oranges the expensive The are second-most (C) plums the expensive"
+logical_deduction_three_objects,44,random_keep,(C),(C),1,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","The following each a set three in a fixed logically paragraph. A fruit stand sells three oranges, mangoes, and plums. plums are expensive than mangoes. are less expensive than plums. Options: (A) The oranges are second-most expensive expensive (C) plums are the expensive"
+logical_deduction_three_objects,44,model_keep_ratio,(C),B,0,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. A fruit stand sells three fruits: oranges, mangoes, plums. plums less expensive than mangoes. oranges less expensive plums. Options: (A) oranges second-most expensive (B) mangoes second-most expensive (C) plums second-most expensive"
+logical_deduction_three_objects,44,stat_hybrid,(C),B,0,71,43,0.6056338028169014,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive","paragraphs each describe three objects in fixed order. statements are logically consistent paragraph. A fruit stand sells three fruits: oranges, mangoes, plums. plums less expensive than oranges less expensive plums. Options: (A) oranges second-most expensive (B) mangoes second-most expensive (C) plums second-most expensive"
+logical_deduction_three_objects,98,none,(A),(B),0,86,86,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left"
+logical_deduction_three_objects,98,every_second_word,(A),"The jay from left, the robin from the jay, the crow second.",0,86,43,0.5,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","The paragraphs describe set three arranged a order. statements logically within paragraph. a there three a a jay, a The is the of crow. robin to left the jay. (A) robin the from left The jay the from left The is second the"
+logical_deduction_three_objects,98,random_keep,(A),The blue jay is the second from the left.,0,86,52,0.6046511627906976,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","following paragraphs each a set of three objects arranged a fixed The consistent within paragraph. a branch, three birds: a robin, a jay, and crow. robin the right the The robin is to left the blue jay. Options: is the left (B) The blue the left crow is the from the left"
+logical_deduction_three_objects,98,model_keep_ratio,(A),A,1,86,52,0.6046511627906976,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","The paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, blue jay, crow. robin to right of crow. robin left of blue jay. Options: (A) robin second from left (B) blue jay second from left (C) crow is second from left"
+logical_deduction_three_objects,98,stat_hybrid,(A),A,1,86,52,0.6046511627906976,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left","The following paragraphs each describe three objects in fixed order. statements are logically consistent each paragraph. On a branch, three birds: robin, blue jay, crow. robin to right of crow. robin left of blue jay. Options: (A) robin second from left (B) blue jay second from left (C) crow second from left"
+logical_deduction_three_objects,184,none,(B),(B),1,56,56,1.0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last"
+logical_deduction_three_objects,184,every_second_word,(B),A,0,56,28,0.5,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","The paragraphs describe set three arranged a order. statements logically within paragraph. a tournament, were golfers: Mel, Amy. finished Amy. finished Mel. (A) finished (B) finished (C) finished"
+logical_deduction_three_objects,184,random_keep,(B),"Dan finished first, Amy second, and (A) last was (B) finished (C) Amy finished",0,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","following paragraphs each describe a in a fixed order. are within each paragraph. In a tournament, there three golfers: and Amy. Dan finished above Amy. Amy above (A) last (B) finished (C) Amy finished"
+logical_deduction_three_objects,184,model_keep_ratio,(B),B,1,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. In golf tournament, three Dan, Mel, Amy. Dan finished above Amy. Amy Mel. Options: (A) Dan (B) Mel last (C) Amy last"
+logical_deduction_three_objects,184,stat_hybrid,(B),"Dan first, Mel second, Amy last (C)",0,56,34,0.6071428571428571,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.
+Options:
+(A) Dan finished last
+(B) Mel finished last
+(C) Amy finished last","paragraphs each describe three objects in fixed order. statements logically consistent paragraph. In golf tournament, three golfers: Dan, Mel, Amy. Dan finished above Amy. Amy Mel. Options: Dan (B) Mel last (C) Amy last"

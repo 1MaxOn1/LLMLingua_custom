@@ -1,5 +1,25 @@
-@"
-results/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+.cache/
+.deepeval/
 **/.ipynb_checkpoints/
-*.log
-"@ >> .gitignore
+*.bak
+
+# Ignore most generated results by default
+results/*
+
+# But keep models and eval results
+!results/models/
+!results/models/**
+!results/eval/
+!results/eval/**
+
+# Keep logs
+!logs/
+!logs/**
+
+# Model weights are stored on Hugging Face Hub
+results/models/
